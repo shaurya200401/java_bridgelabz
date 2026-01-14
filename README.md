@@ -1,7 +1,7 @@
 # Java_capgemini
 Simple JAVA Applications for learning Git and Github
 
-#Logsheet
+# Logsheet
 *Date:* 8th Jan 2026
 *What I've done:* Java Basics, Programming elements
 *What I will do:* control flows
