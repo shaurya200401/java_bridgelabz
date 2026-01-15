@@ -21,3 +21,8 @@ Simple JAVA Applications for learning Git and Github
 *What I've done:* arrays lvl 3, Methods lvl1
 *What I will do:* further provided problems
 *Issues faced:* None
+
+*Date:* 14th Jan 2026
+*What I've done:* methods, strings
+*What I will do:* further provided problems
+*Issues faced:* None
