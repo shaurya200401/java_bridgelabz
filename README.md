@@ -1,4 +1,4 @@
-# Java_Bridgelabz
+# Daily Progress log - Java Bridgelabz Training
 Simple JAVA Applications for learning Git and Github
 
 # Logsheet
