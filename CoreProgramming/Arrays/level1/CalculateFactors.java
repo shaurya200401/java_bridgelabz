@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Program: Factors Finder
  * Purpose: Finds and displays all factors of a given natural number using a dynamic array approach.
  */
-public class factors {
+public class CalculateFactors {
     public static void main(String[] args) {
         // Read input
         Scanner sc = new Scanner(System.in);
