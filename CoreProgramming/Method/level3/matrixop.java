@@ -1,5 +1,9 @@
 ﻿package Method.level3;
 
+/*
+ * Program: Matrix Operations Library
+ * Purpose: Provides methods for matrix addition, multiplication, transpose, and determinant of a 2x2 matrix.
+ */
 public class matrixop {
     public static double[][] add(double[][] a, double[][] b) {
         int r = a.length, c = a[0].length;

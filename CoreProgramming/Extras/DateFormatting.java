@@ -3,6 +3,10 @@ package Extras;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
+/*
+ * Program: Date Formatting
+ * Purpose: Displays the current date in multiple specific formats.
+ */
 public class DateFormatting {
     public static void main(String[] args) {
         LocalDate today = LocalDate.now();

@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Number Store
+ * Purpose: Stores up to 10 positive numbers input by the user and calculates their sum.
+ */
 public class numstore {
     public static void main(String[] args) {
         // Initialize
@@ -27,6 +31,7 @@ public class numstore {
             index++;
         }
 
+        // Calculate sum
         for (int i = 0; i < index; i++) {
             total += numbers[i];
         }
@@ -37,6 +42,6 @@ public class numstore {
         }
 
         System.out.println("Total sum of numbers = " + total);
-
+        sc.close();
     }
 }

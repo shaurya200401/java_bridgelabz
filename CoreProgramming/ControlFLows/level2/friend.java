@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Age and Height Comparator
+ * Purpose: Compares the age and height of three friends (Amar, Akbar, Anthony) to find the youngest and the tallest.
+ */
 public class friend {
     public static void main(String[] args) {
         // Read input

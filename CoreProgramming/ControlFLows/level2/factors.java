@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Factor Finder
+ * Purpose: Finds and prints all factors of a user-inputted positive integer using a for loop.
+ */
 public class factors {
     public static void main(String[] args) {
         // Read input
@@ -21,4 +25,3 @@ public class factors {
         sc.close();
     }
 }
-

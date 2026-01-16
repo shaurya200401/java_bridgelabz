@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Multiplication Table (6-9)
+ * Purpose: Prints the multiplication table for a number multiplied by 6, 7, 8, and 9.
+ */
 public class multitable {
     public static void main(String[] args) {
         // Read input
@@ -17,4 +21,3 @@ public class multitable {
         sc.close();
     }
 }
-

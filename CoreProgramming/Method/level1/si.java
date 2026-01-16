@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Simple Interest Calculator
+ * Purpose: Calculates the Simple Interest using the formula (P * R * T) / 100.
+ */
 public class si {
     public static void main(String[] args) {
         // Read input
@@ -13,6 +17,7 @@ public class si {
         double si = calculateSI(p, r, t);
         System.out.println("The Simple Interest is " + si + " for Principal " + p +
                 ", Rate of Interest " + r + " and Time " + t);
+        sc.close();
     }
 
     public static double calculateSI(double p, double r, double t) {

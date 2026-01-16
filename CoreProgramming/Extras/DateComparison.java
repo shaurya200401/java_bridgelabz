@@ -4,17 +4,23 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 
+/*
+ * Program: Date Comparison
+ * Purpose: Compares two dates to check if one is before, after, or equal to the other.
+ */
 public class DateComparison {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
 
+        // Input dates
         System.out.print("Enter first date (yyyy-MM-dd): ");
         LocalDate date1 = LocalDate.parse(sc.nextLine(), formatter);
 
         System.out.print("Enter second date (yyyy-MM-dd): ");
         LocalDate date2 = LocalDate.parse(sc.nextLine(), formatter);
 
+        // Compare dates
         if (date1.isBefore(date2)) {
             System.out.println(date1 + " is before " + date2);
         } else if (date1.isAfter(date2)) {

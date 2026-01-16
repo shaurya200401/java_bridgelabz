@@ -1,5 +1,9 @@
 ﻿package ProgrammingElements.level1;
 
+/*
+ * Program: Profit and Loss Calculator
+ * Purpose: Calculates the profit and profit percentage given cost price and selling price.
+ */
 public class profloss {
     public static void main(String[] args) {
         // Initialize prices
@@ -14,4 +18,3 @@ public class profloss {
     }
 
 }
-

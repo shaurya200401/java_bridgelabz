@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Prime Number Checker
+ * Purpose: Checks if a given number is prime by testing divisibility from 2 up to num/2.
+ */
 public class prime {
     public static void main(String[] args) {
         // Read input
@@ -18,5 +22,6 @@ public class prime {
             }
         }
         System.out.println(num + (isPrime ? " is a prime number." : " is not a prime number."));
+        sc.close();
     }
 }

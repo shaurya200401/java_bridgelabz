@@ -1,5 +1,10 @@
 ﻿package ControlFLows.level3;
 
+/*
+ * Program: Day of Week Calculator
+ * Purpose: Calculates the day of the week (0=Sunday, 1=Monday, etc.) for a given date using formula.
+ * Usage: Provide month, day, and year as command-line arguments.
+ */
 public class week {
     public static void main(String[] args) {
         // Taking input from command-line arguments as requested (month, day, year)

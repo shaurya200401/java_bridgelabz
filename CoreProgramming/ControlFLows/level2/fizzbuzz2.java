@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: FizzBuzz (While Loop)
+ * Purpose: Implements legal FizzBuzz logic using a while loop to print appropriate strings for multiples of 3 and 5.
+ */
 public class fizzbuzz2 {
     public static void main(String[] args) {
         // Read input

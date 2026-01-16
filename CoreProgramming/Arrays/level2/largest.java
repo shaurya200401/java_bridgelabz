@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Largest Digit Finder
+ * Purpose: Finds the largest and second largest digits in a given natural number.
+ */
 public class largest {
     public static void main(String[] args) {
         // Read input
@@ -39,5 +43,6 @@ public class largest {
 
         System.out.println("Largest Digit = " + largest);
         System.out.println("Second Largest Digit = " + secondLargest);
+        sc.close();
     }
 }

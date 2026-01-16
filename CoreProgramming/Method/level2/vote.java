@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Student Voting Eligibility
+ * Purpose: Checks 10 students' voting eligibility based on age using a method.
+ */
 public class vote {
     public boolean canStudentVote(int age) {
         if (age < 0)
@@ -20,6 +24,6 @@ public class vote {
             ages[i] = sc.nextInt();
             System.out.println("Can vote: " + svc.canStudentVote(ages[i]));
         }
+        sc.close();
     }
 }
-

@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Double Operations
+ * Purpose: Performs various arithmetic operations on three double numbers given by the user.
+ */
 public class doubleop {
     public static void main(String[] args) {
         // Take input
@@ -21,7 +25,7 @@ public class doubleop {
 
         System.out.println(
                 "The results of Double Operations are " + result1 + ", " + result2 + ", " + result3 + ", " + result4);
+        sc.close();
     }
 
 }
-

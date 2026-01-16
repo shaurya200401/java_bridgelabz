@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Purchase Price Calculator
+ * Purpose: Calculates the total purchase price based on unit price and quantity.
+ */
 public class price {
 
     public static void main(String[] args) {
@@ -16,6 +20,6 @@ public class price {
         double total = unitPrice * quantity;
         System.out.println("The total purchase price is INR " + total + " if the quantity " + quantity
                 + " and unit price is INR " + unitPrice);
+        input.close();
     }
 }
-

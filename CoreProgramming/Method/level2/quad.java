@@ -1,5 +1,9 @@
 ﻿package Method.level2;
 
+/*
+ * Program: Quadratic Equation Solver
+ * Purpose: Calculates the roots of a quadratic equation (ax^2 + bx + c = 0).
+ */
 public class quad {
     public static double[] findRoots(double a, double b, double c) {
         // Calculate delta

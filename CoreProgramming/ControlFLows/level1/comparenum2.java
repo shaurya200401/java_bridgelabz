@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Largest/Smallest Number Checker
+ * Purpose: Identifies which of the three numbers is the largest or smallest.
+ */
 public class comparenum2 {
     public static void main(String[] args) {
         // Read inputs
@@ -17,7 +21,7 @@ public class comparenum2 {
             System.out.println("Is the second number the largest? Yes");
         else
             System.out.println("Is the third number the smallest? Yes");
+
+        sc.close();
     }
-
 }
-

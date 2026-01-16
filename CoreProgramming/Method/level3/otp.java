@@ -1,5 +1,9 @@
 ﻿package Method.level3;
 
+/*
+ * Program: OTP Generator and Uniqueness Checker
+ * Purpose: Generates 10 random 6-digit OTPs and ensures they are all unique.
+ */
 public class otp {
     public static void main(String[] args) {
         String[] otps = new String[10];
@@ -29,4 +33,3 @@ public class otp {
         return true;
     }
 }
-

@@ -1,5 +1,9 @@
 ﻿package ProgrammingElements.level1;
 
+/*
+ * Program: Km to Miles Converter (Fixed)
+ * Purpose: Converts a fixed distance in kilometers to miles.
+ */
 public class kmtomiles {
     public static void main(String[] args) {
         // Initialize km
@@ -10,4 +14,3 @@ public class kmtomiles {
         System.out.println("The distance " + km + " km in miles is " + miles);
     }
 }
-

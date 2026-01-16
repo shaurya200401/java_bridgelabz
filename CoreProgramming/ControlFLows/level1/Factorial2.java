@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Factorial Calculator (For Loop)
+ * Purpose: Calculates the factorial of a positive integer using a for loop.
+ */
 public class Factorial2 {
     public static void main(String[] args) {
         // Read input
@@ -19,5 +23,6 @@ public class Factorial2 {
         } else {
             System.out.println("Not a natural number");
         }
+        sc.close();
     }
 }

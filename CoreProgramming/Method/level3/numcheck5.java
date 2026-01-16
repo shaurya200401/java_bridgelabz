@@ -1,5 +1,9 @@
 ﻿package Method.level3;
 
+/*
+ * Program: Advanced Number Checks (Perfect, Strong)
+ * Purpose: Checks if a number is Perfect (sum of proper divisors = number) or Strong (sum of factorial of digits = number).
+ */
 public class numcheck5 {
     public static int[] getFactors(int n) {
         int count = 0;

@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Employee Bonus Calculator
+ * Purpose: Calculates employee bonuses and new salaries based on years of service.
+ */
 public class bonus {
     public static void main(String[] args) {
         // Initialize
@@ -26,6 +30,7 @@ public class bonus {
             years[i] = y;
         }
 
+        // Calculate bonus
         for (int i = 0; i < n; i++) {
             if (years[i] > 5) {
                 bonus[i] = salary[i] * 0.05;
@@ -48,5 +53,6 @@ public class bonus {
         System.out.println("Total Bonus Payout = " + totalBonus);
         System.out.println("Total Old Salary = " + totalOldSalary);
         System.out.println("Total New Salary = " + totalNewSalary);
+        sc.close();
     }
 }

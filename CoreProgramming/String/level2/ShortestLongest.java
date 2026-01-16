@@ -2,7 +2,10 @@
 
 import java.util.Scanner;
 
-// Program to find shortest and longest words
+/*
+ * Program: Shortest and Longest Word
+ * Purpose: Identifies the shortest and longest words in a given text string.
+ */
 public class ShortestLongest {
 
     // Finds string length manually
@@ -126,4 +129,3 @@ public class ShortestLongest {
         scanner.close();
     }
 }
-

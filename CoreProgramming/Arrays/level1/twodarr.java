@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: 2D to 1D Array Converter
+ * Purpose: Converts a user-input 2D matrix into a 1D array.
+ */
 public class twodarr {
     public static void main(String[] args) {
         // Read dimensions
@@ -20,6 +24,8 @@ public class twodarr {
                 matrix[i][j] = sc.nextInt();
             }
         }
+
+        // Convert to 1D array
         int[] array = new int[rows * cols];
         int index = 0;
         for (int i = 0; i < rows; i++) {
@@ -27,9 +33,11 @@ public class twodarr {
                 array[index++] = matrix[i][j];
             }
         }
+
         System.out.print("1D Array: ");
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");
         }
+        sc.close();
     }
 }

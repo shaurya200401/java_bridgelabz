@@ -1,5 +1,9 @@
 ﻿package Method.level3;
 
+/*
+ * Program: Number Property Checks (Prime, Neon, Spy, Automorphic, Buzz)
+ * Purpose: A comprehensive utility to check various special number properties.
+ */
 public class numcheck4 {
     public static boolean isPrime(int n) {
         if (n <= 1)

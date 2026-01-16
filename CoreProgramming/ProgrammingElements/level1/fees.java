@@ -1,5 +1,9 @@
 ﻿package ProgrammingElements.level1;
 
+/*
+ * Program: Fixed Fee Discount Calculator
+ * Purpose: Calculates the discount amount and final fee for a fixed fee and discount percentage.
+ */
 public class fees {
     public static void main(String[] args) {
         // Initialize fee and discount
@@ -13,4 +17,3 @@ public class fees {
     }
 
 }
-

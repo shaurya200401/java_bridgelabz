@@ -1,5 +1,9 @@
 ﻿package ProgrammingElements.level1;
 
+/*
+ * Program: Average Marks Calculator
+ * Purpose: Calculates the average marks of a student in PCM (Physics, Chemistry, Math).
+ */
 public class avg {
     public static void main(String[] args) {
         // Initialize marks
@@ -7,6 +11,6 @@ public class avg {
 
         // Calculate average
         double average = (maths + physics + chemistry) / 3.0;
-        System.out.println("Samâ€™s average mark in PCM is " + average);
+        System.out.println("Sam's average mark in PCM is " + average);
     }
 }

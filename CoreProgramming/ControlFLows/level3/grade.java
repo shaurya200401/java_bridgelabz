@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Student Grading System
+ * Purpose: Calculates average marks and assigns a grade/remark based on Physics, Chemistry, and Maths scores.
+ */
 public class grade {
     public static void main(String[] args) {
         // Read input
@@ -34,5 +38,6 @@ public class grade {
         }
 
         System.out.printf("Average: %.2f%% | Grade: %s | Remark: %s\n", avg, grade, remark);
+        sc.close();
     }
 }

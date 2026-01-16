@@ -2,11 +2,16 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Factors Finder
+ * Purpose: Finds and displays all factors of a given natural number using a dynamic array approach.
+ */
 public class factors {
     public static void main(String[] args) {
         // Read input
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
+
         if (number <= 0) {
             System.out.println("Error: Not a natural number");
             return;
@@ -16,8 +21,10 @@ public class factors {
         int maxFactor = 10;
         int[] factors = new int[maxFactor];
         int index = 0;
+
         for (int i = 1; i <= number; i++) {
             if (number % i == 0) {
+                // Resize array if full
                 if (index == maxFactor) {
                     maxFactor *= 2;
                     int[] temp = new int[maxFactor];
@@ -29,9 +36,11 @@ public class factors {
                 factors[index++] = i;
             }
         }
+
         System.out.print("Factors: ");
         for (int i = 0; i < index; i++) {
             System.out.print(factors[i] + " ");
         }
+        sc.close();
     }
 }

@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Trigonometric Functions Calculator
+ * Purpose: Calculates Sine, Cosine, and Tangent for a given angle in degrees.
+ */
 public class trig {
     public static void main(String[] args) {
         // Read input
@@ -14,6 +18,7 @@ public class trig {
         double[] results = obj.calculateTrigonometricFunctions(angle);
 
         System.out.printf("Sine: %.4f, Cosine: %.4f, Tangent: %.4f\n", results[0], results[1], results[2]);
+        sc.close();
     }
 
     public double[] calculateTrigonometricFunctions(double angle) {

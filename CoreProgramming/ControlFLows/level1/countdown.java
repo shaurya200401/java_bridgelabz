@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Countdown Timer
+ * Purpose: Counts down from a user-specified value to 1 using a while loop.
+ */
 public class countdown {
     public static void main(String[] args) {
         // Read start value
@@ -15,6 +19,6 @@ public class countdown {
             counter--;
         }
         System.out.println("Rocket Launched!");
-
+        sc.close();
     }
 }

@@ -2,9 +2,13 @@
 
 import java.util.Scanner;
 
-// Program to initialize, shuffle and distribute a deck of cards
+/*
+ * Program: Deck of Cards Simulation
+ * Purpose: Initailizes, shuffles, and distributes a deck of playing cards to players.
+ */
 public class DeckOfCards {
 
+    // Method to initialize standard deck
     public static String[] initializeDeck() {
         String[] suits = { "Clubs", "Diamonds", "Hearts", "Spades" };
         String[] ranks = { "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace" };
@@ -19,12 +23,13 @@ public class DeckOfCards {
         return deck;
     }
 
+    // Method to shuffle the deck
     public static String[] shuffleDeck(String[] deck) {
         int n = deck.length;
         for (int i = 0; i < n; i++) {
             int r = i + (int) (Math.random() * (n - i));
 
-            // Swap
+            // Swap to shuffle
             String temp = deck[r];
             deck[r] = deck[i];
             deck[i] = temp;
@@ -32,6 +37,7 @@ public class DeckOfCards {
         return deck;
     }
 
+    // Method to distribute cards to players
     public static String[][] distributeCards(String[] deck, int players, int cardsPerPlayer) {
         String[][] hands = new String[players][cardsPerPlayer];
         int cardIdx = 0;
@@ -55,20 +61,17 @@ public class DeckOfCards {
         deck = shuffleDeck(deck);
         System.out.println("Deck shuffled.");
 
-        // Distribute to 4 players, 9 cards each (Total 36)
+        // Distribute to 4 players, 9 cards each
         int players = 4;
         int cardsPerPlayer = 9;
         String[][] playerHands = distributeCards(deck, players, cardsPerPlayer);
 
-        // Print
+        // Print hands
         for (int i = 0; i < players; i++) {
             System.out.println("\nPlayer " + (i + 1) + " cards:");
             for (int j = 0; j < cardsPerPlayer; j++) {
                 System.out.println(playerHands[i][j]);
             }
         }
-
-        // Optional: Print total cards distributed logic check or remaining cards
     }
 }
-

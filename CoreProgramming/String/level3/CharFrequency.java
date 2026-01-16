@@ -2,7 +2,10 @@
 
 import java.util.Scanner;
 
-// Program to find the frequency of characters using ASCII array
+/*
+ * Program: Character Frequency (ASCII Array)
+ * Purpose: Finds the frequency of characters in a string using an ASCII frequency array.
+ */
 public class CharFrequency {
 
     // Helper to find length
@@ -65,4 +68,3 @@ public class CharFrequency {
         scanner.close();
     }
 }
-

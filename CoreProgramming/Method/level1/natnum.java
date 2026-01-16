@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Natural Number Sum Calculator
+ * Purpose: Calculates the sum of the first N natural numbers using a loop inside a method.
+ */
 public class natnum {
     public static void main(String[] args) {
         // Read input
@@ -10,6 +14,7 @@ public class natnum {
         int n = sc.nextInt();
         // Calculate sum
         System.out.println("Sum of " + n + " natural numbers: " + findSum(n));
+        sc.close();
     }
 
     public static int findSum(int n) {

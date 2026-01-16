@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Multiplication Table (6-9 Range)
+ * Purpose: Displays multiplication table for a number if it is between 6 and 9.
+ */
 public class multi2 {
     public static void main(String[] args) {
         // Take input
@@ -9,6 +13,7 @@ public class multi2 {
         System.out.print("Enter a number between 6 and 9: ");
         int number = sc.nextInt();
 
+        // Validate range
         if (number < 6 || number > 9) {
             System.out.println("Invalid input! Please enter a number between 6 and 9.");
         } else {
@@ -23,6 +28,6 @@ public class multi2 {
                 System.out.println(number + " * " + i + " = " + multiplicationResult[i - 1]);
             }
         }
-
+        sc.close();
     }
 }

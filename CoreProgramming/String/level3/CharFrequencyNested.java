@@ -2,9 +2,13 @@
 
 import java.util.Scanner;
 
-// Program to find frequency of characters using nested loops
+/*
+ * Program: Character Frequency (Nested Loops)
+ * Purpose: Finds frequency of characters in a string using nested loops.
+ */
 public class CharFrequencyNested {
 
+    // Helper to find length manually
     public static int findLength(String text) {
         int len = 0;
         try {
@@ -29,8 +33,7 @@ public class CharFrequencyNested {
             for (int j = i + 1; j < len; j++) {
                 if (chars[i] == chars[j]) {
                     freq[i]++;
-                    // Mark as visited to avoid counting again (set to 0 or sentinel)
-                    // But we used char array, so we can set char to 0 to skip
+                    // Mark as visited to avoid counting again
                     chars[j] = '0';
                 }
             }
@@ -41,9 +44,7 @@ public class CharFrequencyNested {
         System.out.printf("%-10s %-10s%n", "Char", "Frequency");
         System.out.println("--------------------");
         for (int i = 0; i < len; i++) {
-            if (chars[i] != '0' && chars[i] != ' ') { // Excluding spaces for clean output or keep them?
-                // Logic hint says "set duplicate characters to '0' to avoid counting them
-                // again"
+            if (chars[i] != '0' && chars[i] != ' ') {
                 System.out.printf("%-10s %-10s%n", chars[i], freq[i]);
             }
         }
@@ -59,4 +60,3 @@ public class CharFrequencyNested {
         scanner.close();
     }
 }
-

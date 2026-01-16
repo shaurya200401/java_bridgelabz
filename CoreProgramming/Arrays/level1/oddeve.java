@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Odd and Even Separator
+ * Purpose: Separates odd and even numbers from 1 to N into respective arrays.
+ */
 public class oddeve {
     public static void main(String[] args) {
         // Read input
@@ -25,6 +29,7 @@ public class oddeve {
                 odd[oddIndex++] = i;
             }
         }
+
         System.out.print("Odd Numbers: ");
         for (int i = 0; i < oddIndex; i++) {
             System.out.print(odd[i] + " ");
@@ -34,5 +39,6 @@ public class oddeve {
         for (int i = 0; i < evenIndex; i++) {
             System.out.print(even[i] + " ");
         }
+        sc.close();
     }
 }

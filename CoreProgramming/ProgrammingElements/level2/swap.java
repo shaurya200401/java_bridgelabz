@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Number Swapper
+ * Purpose: Swaps two numbers using a temporary variable.
+ */
 public class swap {
     public static void main(String[] args) {
         // Take input
@@ -17,7 +21,7 @@ public class swap {
         number2 = temp;
 
         System.out.println("The swapped numbers are " + number1 + " and " + number2);
+        sc.close();
     }
 
 }
-

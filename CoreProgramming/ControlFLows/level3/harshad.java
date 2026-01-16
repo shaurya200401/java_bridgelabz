@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Harshad Number Checker
+ * Purpose: Checks if a number is divisible by the sum of its digits (Harshad Number).
+ */
 public class harshad {
     public static void main(String[] args) {
         // Read input
@@ -20,6 +24,6 @@ public class harshad {
             System.out.println("Harshad Number");
         else
             System.out.println("Not a Harshad Number");
+        sc.close();
     }
 }
-

@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Armstrong Number Checker
+ * Purpose: Checks if a number is an Armstrong number (sum of cubes of digits equals the number).
+ */
 public class armstr {
     public static void main(String[] args) {
         // Read input
@@ -12,7 +16,6 @@ public class armstr {
         int sum = 0;
 
         // Calculate armstrong number logic
-
         while (originalNumber != 0) {
             int digit = originalNumber % 10;
             sum += (digit * digit * digit);
@@ -23,5 +26,6 @@ public class armstr {
             System.out.println(number + " is an Armstrong number.");
         else
             System.out.println(number + " is not an Armstrong number.");
+        sc.close();
     }
 }

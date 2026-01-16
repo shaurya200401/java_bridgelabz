@@ -1,5 +1,9 @@
 ﻿package ProgrammingElements.level1;
 
+/*
+ * Program: Volume of Earth Calculator
+ * Purpose: Calculates the volume of the Earth in cubic kilometers and cubic miles given its radius.
+ */
 public class vol {
     public static void main(String[] args) {
         // Initialize radius
@@ -13,4 +17,3 @@ public class vol {
     }
 
 }
-

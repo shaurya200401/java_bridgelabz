@@ -1,5 +1,9 @@
 ﻿package ProgrammingElements.level1;
 
+/*
+ * Program: Pen Distribution
+ * Purpose: Calculates how many pens each student gets and the remainder.
+ */
 public class pens {
     public static void main(String[] args) {
         // Initialize values
@@ -13,4 +17,3 @@ public class pens {
     }
 
 }
-

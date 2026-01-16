@@ -1,5 +1,10 @@
 ﻿package Method.level3;
 
+/*
+ * Program: Number Operations Utility II
+ * Purpose: Checks number properties including sum of digits, sum of squares, and Harshad number status.
+ * Also computes frequency of each digit.
+ */
 public class numcheck2 {
     public static int sumDigits(int[] digits) {
         int sum = 0;

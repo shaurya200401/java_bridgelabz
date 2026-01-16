@@ -1,5 +1,9 @@
 ﻿package Method.level2;
 
+/*
+ * Program: Youngest and Tallest Finder
+ * Purpose: Finds the youngest student and the tallest student from a set of parallel arrays.
+ */
 public class youngesttallest {
     public static void main(String[] args) {
         String[] names = { "Amar", "Akbar", "Anthony" };

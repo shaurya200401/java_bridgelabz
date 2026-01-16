@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: BMI Calculator
+ * Purpose: Calculates Body Mass Index (BMI) and provides weight status category based on weight (kg) and height (cm).
+ */
 public class bmi {
     public static void main(String[] args) {
         // Read input
@@ -25,5 +29,6 @@ public class bmi {
             status = "Obese";
 
         System.out.printf("BMI: %.1f | Status: %s\n", bmi, status);
+        sc.close();
     }
 }

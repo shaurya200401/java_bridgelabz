@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Mean Height Calculator
+ * Purpose: Calculates the mean height of 11 football players.
+ */
 public class mean {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -17,13 +21,15 @@ public class mean {
             heights[i] = sc.nextDouble();
         }
 
+        // Calculate sum
         for (int i = 0; i < heights.length; i++) {
             sum += heights[i];
         }
 
+        // Calculate mean
         double mean = sum / heights.length;
 
         System.out.println("\nMean height of the football team = " + mean);
-
+        sc.close();
     }
 }

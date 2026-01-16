@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Income Calculator
+ * Purpose: Calculates total income by summing up salary and bonus.
+ */
 public class income {
     public static void main(String[] args) {
         // Take input
@@ -15,7 +19,7 @@ public class income {
         double income = salary + bonus;
         System.out.println("The salary is INR " + salary + " and bonus is INR " + bonus +
                 ". Hence Total Income is INR " + income);
+        sc.close();
     }
 
 }
-

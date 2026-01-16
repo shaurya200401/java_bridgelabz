@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Voting Age Checker
+ * Purpose: Checks the voting eligibility for 10 users based on their age.
+ */
 public class vote {
     public static void main(String[] args) {
         // Check voting age
@@ -16,7 +20,6 @@ public class vote {
             else
                 System.out.println("The student with age " + age + " cannot vote");
         }
-
+        sc.close();
     }
 }
-

@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Abundant Number Checker
+ * Purpose: Determines if a given integer is an Abundant Number (sum of proper divisors > number).
+ */
 public class abundant {
     public static void main(String[] args) {
         // Read input
@@ -23,5 +27,6 @@ public class abundant {
         } else {
             System.out.println(number + " is Not an Abundant Number.");
         }
+        sc.close();
     }
 }

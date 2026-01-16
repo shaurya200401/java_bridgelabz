@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Voting Eligibility
+ * Purpose: Checks if a person is eligible to vote based on their age (>= 18).
+ */
 public class vote {
     public static void main(String[] args) {
         // Read age
@@ -15,6 +19,6 @@ public class vote {
         } else {
             System.out.println("The person's age is " + age + " and cannot vote.");
         }
+        sc.close();
     }
 }
-

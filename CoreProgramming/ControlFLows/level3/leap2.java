@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Leap Year Checker (Single Condition)
+ * Purpose: Checks if a year is a leap year using a single complex boolean expression.
+ */
 public class leap2 {
     public static void main(String[] args) {
         // Read input
@@ -15,5 +19,6 @@ public class leap2 {
         } else {
             System.out.println(year + " is NOT a Leap Year (or is pre-1582).");
         }
+        sc.close();
     }
 }

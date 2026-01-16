@@ -2,7 +2,10 @@
 
 import java.util.Scanner;
 
-// Rock-Paper-Scissors Game Program
+/*
+ * Program: Rock Paper Scissors Game
+ * Purpose: Simulates the Rock-Paper-Scissors game against the computer and tracks stats.
+ */
 public class RockPaperScissors {
 
     // Gets random computer choice
@@ -85,4 +88,3 @@ public class RockPaperScissors {
         scanner.close();
     }
 }
-

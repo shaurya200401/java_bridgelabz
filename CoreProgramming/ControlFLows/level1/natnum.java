@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Sum of Natural Numbers
+ * Purpose: Calculates the sum of the first N natural numbers.
+ */
 public class natnum {
     public static void main(String[] args) {
         // Read input
@@ -16,6 +20,6 @@ public class natnum {
         } else {
             System.out.println("The number " + n + " is not a natural number");
         }
-
+        sc.close();
     }
 }

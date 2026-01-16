@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Positive, Negative, Odd, Even Checker
+ * Purpose: Analyzes 5 input numbers and identifies if they are positive/negative and odd/even.
+ */
 public class posneg {
     public static void main(String[] args) {
         // Read numbers
@@ -23,10 +27,10 @@ public class posneg {
                     System.out.println(num + " is an even number");
                 else
                     System.out.println(num + " is an odd number");
-            } else
+            } else if (num == 0) {
                 System.out.println("number is 0");
+            }
         }
-
+        sc.close();
     }
 }
-

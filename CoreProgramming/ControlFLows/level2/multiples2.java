@@ -2,8 +2,10 @@
 
 import java.util.Scanner;
 
-import java.util.Scanner;
-
+/*
+ * Program: Multiple Finder (While Loop)
+ * Purpose: Finds multiples of a number (less than 100) iterating backwards from 100 using a while loop.
+ */
 public class multiples2 {
     public static void main(String[] args) {
         // Read input

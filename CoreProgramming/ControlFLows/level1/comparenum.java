@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Smallest Number Finder
+ * Purpose: Checks if the first number is the smallest among three input numbers.
+ */
 public class comparenum {
     public static void main(String[] args) {
         // Read inputs
@@ -15,7 +19,6 @@ public class comparenum {
             System.out.println("Is the first number the smallest? Yes");
         else
             System.out.println("Is the first number the smallest? No");
+        sc.close();
     }
-
 }
-

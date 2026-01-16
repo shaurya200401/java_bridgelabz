@@ -1,5 +1,9 @@
 ﻿package Method.level3;
 
+/*
+ * Program: Employee Salary Bonus Calculator
+ * Purpose: Calculates new salary with bonus for 10 employees based on their years of service.
+ */
 public class salary {
     public static void main(String[] args) {
         double[][] data = new double[10][5]; // OldSal, Years, Bonus%, BonusAmt, NewSal

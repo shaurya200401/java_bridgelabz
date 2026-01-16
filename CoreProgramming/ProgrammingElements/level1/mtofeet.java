@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Height Converter
+ * Purpose: Converts height from centimeters to feet and inches.
+ */
 public class mtofeet {
     public static void main(String[] args) {
         // Take input
@@ -13,7 +17,7 @@ public class mtofeet {
         double inches = cm / 2.54;
         double feet = inches / 12;
         System.out.println("Your Height in cm is " + cm + " while in feet is " + feet + " and inches is " + inches);
+        input.close();
     }
 
 }
-

@@ -2,7 +2,10 @@
 
 import java.util.Scanner;
 
-// Program to check voting eligibility
+/*
+ * Program: Voting Eligibility Checker
+ * Purpose: Generates random ages and checks if each person is eligible to vote (>= 18).
+ */
 public class VotingEligibility {
 
     // Generates random ages
@@ -50,4 +53,3 @@ public class VotingEligibility {
         scanner.close();
     }
 }
-

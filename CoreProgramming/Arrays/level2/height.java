@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Tallest and Youngest Finder
+ * Purpose: Analyzes age and height data for 3 friends to find the youngest and tallest.
+ */
 public class height {
     public static void main(String[] args) {
         // Initialize arrays
@@ -34,5 +38,6 @@ public class height {
 
         System.out.println("Youngest Friend: " + names[youngestIndex] + " (Age: " + ages[youngestIndex] + ")");
         System.out.println("Tallest Friend: " + names[tallestIndex] + " (Height: " + heights[tallestIndex] + ")");
+        sc.close();
     }
 }

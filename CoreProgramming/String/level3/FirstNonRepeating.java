@@ -2,7 +2,10 @@
 
 import java.util.Scanner;
 
-// Program to find the first non-repeating character
+/*
+ * Program: First Non-Repeating Character
+ * Purpose: Identifies the first character in a string that does not repeat.
+ */
 public class FirstNonRepeating {
 
     // Find length manually
@@ -28,7 +31,7 @@ public class FirstNonRepeating {
             freq[text.charAt(i)]++;
         }
 
-        // valid non-repeating char
+        // Find first char with frequency 1
         for (int i = 0; i < len; i++) {
             if (freq[text.charAt(i)] == 1) {
                 return text.charAt(i);
@@ -54,4 +57,3 @@ public class FirstNonRepeating {
         scanner.close();
     }
 }
-

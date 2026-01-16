@@ -1,5 +1,9 @@
 ﻿package Method.level2;
 
+/*
+ * Program: Number Properties Analyzer
+ * Purpose: Checks if numbers are positive, even, or odd, and compares two numbers.
+ */
 public class numprop {
     public static boolean isPositive(int n) {
         return n >= 0;

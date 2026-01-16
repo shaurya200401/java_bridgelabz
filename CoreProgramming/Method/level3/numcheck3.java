@@ -1,5 +1,9 @@
 ﻿package Method.level3;
 
+/*
+ * Program: Number Operations Utility III
+ * Purpose: Provides a method to reverse an array and check if a number is a Palindrome.
+ */
 public class numcheck3 {
     public static int[] reverseArray(int[] digits) {
         int[] reversed = new int[digits.length];
