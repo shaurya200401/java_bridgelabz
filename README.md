@@ -1,4 +1,4 @@
-# Java_capgemini
+# Java_Bridgelabz
 Simple JAVA Applications for learning Git and Github
 
 # Logsheet
