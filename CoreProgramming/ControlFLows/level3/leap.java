@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Leap Year Checker
+ * Purpose: Determines if a year (>= 1582) is a leap year based on Gregorian calendar rules.
+ */
 public class leap {
     public static void main(String[] args) {
         // Read input
@@ -20,5 +24,6 @@ public class leap {
                 System.out.println(year + " is not a Leap Year.");
             }
         }
+        sc.close();
     }
 }

@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Athlete Rounds Calculator
+ * Purpose: Calculates the number of rounds of a triangular park an athlete needs to run to complete 5 km.
+ */
 public class rounds {
     public static void main(String[] args) {
         // Take user input
@@ -19,7 +23,7 @@ public class rounds {
         double rounds = distance / perimeter;
 
         System.out.println("The total number of rounds the athlete will run is " + rounds + " to complete 5 km");
+        sc.close();
     }
 
 }
-

@@ -2,7 +2,10 @@
 
 import java.util.Scanner;
 
-// Program to split text manually and compare with built-in split()
+/*
+ * Program: Split and Compare
+ * Purpose: Manually splits a string and compares result with built-in split method.
+ */
 public class SplitCompare {
 
     // Helper method to find length manually
@@ -103,4 +106,3 @@ public class SplitCompare {
         scanner.close();
     }
 }
-

@@ -2,7 +2,10 @@
 
 import java.util.Scanner;
 
-// Program to display character types in tabular format
+/*
+ * Program: Character Type Display
+ * Purpose: Displays a table of characters from the input string and identifying them as Vowel, Consonant, or Not a Letter.
+ */
 public class CharTypeDisplay {
 
     // Finds length manually
@@ -68,4 +71,3 @@ public class CharTypeDisplay {
         scanner.close();
     }
 }
-

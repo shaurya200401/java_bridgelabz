@@ -2,9 +2,13 @@
 
 import java.util.Scanner;
 
-// Program to check if text is a palindrome using 3 different logic approaches
+/*
+ * Program: Palindrome Checker (Multi-Logic)
+ * Purpose: Demonstrates three different methods (Iterative, Recursive, Array) to check if a string is a palindrome.
+ */
 public class PalindromeCheck {
 
+    // Helper to find length
     public static int findLength(String text) {
         int len = 0;
         try {
@@ -64,7 +68,7 @@ public class PalindromeCheck {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a string: ");
-        String text = scanner.next(); // Single word usually
+        String text = scanner.next();
 
         System.out.println("Logic 1 (Iterative): " + isPalindromeIterative(text));
         System.out.println("Logic 2 (Recursive): " + isPalindromeRecursive(text, 0, findLength(text) - 1));
@@ -73,4 +77,3 @@ public class PalindromeCheck {
         scanner.close();
     }
 }
-

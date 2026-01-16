@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Multiplication Table Range
+ * Purpose: Prints the multiplication table of a number for multiples 6 through 9.
+ */
 public class multi {
     public static void main(String[] args) {
         // Read input

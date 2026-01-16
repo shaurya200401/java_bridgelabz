@@ -1,5 +1,9 @@
 ﻿package Method.level2;
 
+/*
+ * Program: Random Array Statistics
+ * Purpose: Generates an array of 4-digit random numbers and calculates their average, min, and max.
+ */
 public class rand {
     public int[] generate4DigitRandomArray(int size) {
         int[] arr = new int[size];

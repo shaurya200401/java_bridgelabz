@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Track Rounds Calculator
+ * Purpose: Calculates the number of rounds required to cover 5km based on the perimeter of a triangular track.
+ */
 public class rounds {
     public static void main(String[] args) {
         // Read input
@@ -12,6 +16,7 @@ public class rounds {
         // Calculate rounds
         double rounds = calculateRounds(s1, s2, s3);
         System.out.printf("Rounds required to complete 5km: %.2f\n", rounds);
+        sc.close();
     }
 
     public static double calculateRounds(double a, double b, double c) {

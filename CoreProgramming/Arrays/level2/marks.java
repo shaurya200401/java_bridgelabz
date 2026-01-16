@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Student Marks Report
+ * Purpose: Generates a report with total marks, percentage, and grades for N students.
+ */
 public class marks {
     public static void main(String[] args) {
         // Read input
@@ -53,5 +57,6 @@ public class marks {
             System.out.printf("Student %d: Physics = %d, Chemistry = %d, Maths = %d, Percentage = %.2f%%, Grade = %s\n",
                     (i + 1), marks[i][0], marks[i][1], marks[i][2], percentage[i], grade[i]);
         }
+        sc.close();
     }
 }

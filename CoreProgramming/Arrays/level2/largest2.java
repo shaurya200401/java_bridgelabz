@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Largest Digit Finder (Dynamic)
+ * Purpose: Finds largest and second largest digits using a dynamically resizing array to store digits.
+ */
 public class largest2 {
     public static void main(String[] args) {
         // Read input
@@ -18,6 +22,7 @@ public class largest2 {
         int index = 0;
 
         while (number != 0) {
+            // Resize array if needed
             if (index == maxDigit) {
                 maxDigit += 10;
                 int[] temp = new int[maxDigit];
@@ -44,5 +49,6 @@ public class largest2 {
 
         System.out.println("Largest Digit = " + largest);
         System.out.println("Second Largest Digit = " + secondLargest);
+        sc.close();
     }
 }

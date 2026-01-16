@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Factor Finder (While Loop)
+ * Purpose: Finds and prints all factors of a user-inputted positive integer using a while loop.
+ */
 public class factors2 {
     public static void main(String[] args) {
         // Read input

@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Spring Season Checker
+ * Purpose: Determines if a given date falls within the Spring season (March 20 to June 20).
+ */
 public class spring {
     public static void main(String[] args) {
         // Read input
@@ -17,5 +21,6 @@ public class spring {
         } else {
             System.out.println("Not a Spring Season");
         }
+        sc.close();
     }
 }

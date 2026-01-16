@@ -2,6 +2,10 @@
 
 import java.util.Random;
 
+/*
+ * Program: Height Statistics Analyzer
+ * Purpose: Generates random heights for a football team and calculates mean, shortest, and tallest player stats.
+ */
 public class mean {
     public static void main(String[] args) {
         int[] heights = new int[11];

@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Km to Miles Converter (Input)
+ * Purpose: Converts a user-input distance in kilometers to miles.
+ */
 public class kmtomiles2 {
     public static void main(String[] args) {
         // Take input for km
@@ -13,7 +17,7 @@ public class kmtomiles2 {
         // Convert to miles
         double miles = km / 1.6;
         System.out.println("The total miles is " + miles + " mile for the given " + km + " km");
+        input.close();
     }
 
 }
-

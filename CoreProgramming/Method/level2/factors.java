@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Factors Operations
+ * Purpose: Finds factors of a number and calculates their sum, product, and sum of squares using methods.
+ */
 public class factors {
     public static void main(String[] args) {
         // Read input
@@ -15,6 +19,7 @@ public class factors {
         System.out.println("Sum: " + findSum(factors));
         System.out.println("Product: " + findProduct(factors));
         System.out.println("Sum of Squares: " + findSumOfSquares(factors));
+        sc.close();
     }
 
     public static int[] findFactors(int n) {
@@ -51,4 +56,3 @@ public class factors {
         return sumSq;
     }
 }
-

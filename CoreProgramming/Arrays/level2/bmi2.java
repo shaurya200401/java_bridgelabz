@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: BMI Multi-Person Calculator
+ * Purpose: Calculates BMI for N persons with input validation for height and weight.
+ */
 public class bmi2 {
     public static void main(String[] args) {
         // Read number of persons
@@ -45,5 +49,6 @@ public class bmi2 {
             System.out.printf("Person %d: Height = %.2f m, Weight = %.2f kg, BMI = %.2f, Status = %s\n",
                     (i + 1), personData[i][0], personData[i][1], personData[i][2], weightStatus[i]);
         }
+        sc.close();
     }
 }

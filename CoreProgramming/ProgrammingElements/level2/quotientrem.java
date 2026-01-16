@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Quotient and Remainder Calculator
+ * Purpose: Calculates the quotient and remainder when one number is divided by another.
+ */
 public class quotientrem {
     public static void main(String[] args) {
         // Take input
@@ -17,7 +21,7 @@ public class quotientrem {
 
         System.out.println("The Quotient is " + quotient + " and Remainder is " + remainder +
                 " of two numbers " + number1 + " and " + number2);
+        sc.close();
     }
 
 }
-

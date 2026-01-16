@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Division Calculator
+ * Purpose: Calculates the quotient and remainder of two numbers used in division.
+ */
 public class div {
     public static void main(String[] args) {
         // Read input
@@ -12,6 +16,7 @@ public class div {
         // Calculate quotient and remainder
         int[] result = findRemainderAndQuotient(num, div);
         System.out.println("Quotient: " + result[1] + ", Remainder: " + result[0]);
+        sc.close();
     }
 
     public static int[] findRemainderAndQuotient(int number, int divisor) {

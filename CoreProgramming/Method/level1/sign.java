@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Number Sign Check
+ * Purpose: Determines whether a number is positive (1), negative (-1), or zero (0).
+ */
 public class sign {
     public static void main(String[] args) {
         // Read input
@@ -10,6 +14,7 @@ public class sign {
         int num = sc.nextInt();
         // Check sign
         System.out.println("Result: " + checkSign(num));
+        sc.close();
     }
 
     public static int checkSign(int n) {
@@ -20,4 +25,3 @@ public class sign {
         return 0;
     }
 }
-

@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Divisibility by 5 Checker
+ * Purpose: Checks if a number entered by the user is divisible by 5.
+ */
 public class div5 {
     public static void main(String[] args) {
         // Read input
@@ -13,6 +17,6 @@ public class div5 {
             System.out.println("Is the " + num + " divisible by 5? " + "Yes");
         else
             System.out.println("Is the " + num + " divisible by 5? " + "No");
+        sc.close();
     }
 }
-

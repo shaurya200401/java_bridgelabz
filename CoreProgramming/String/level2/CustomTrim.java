@@ -2,7 +2,10 @@
 
 import java.util.Scanner;
 
-// Program to trim spaces manually
+/*
+ * Program: Custom Trim
+ * Purpose: Manually removes leading and trailing spaces from a string and compares with built-in trim().
+ */
 public class CustomTrim {
 
     // Finds length manually
@@ -90,4 +93,3 @@ public class CustomTrim {
         scanner.close();
     }
 }
-

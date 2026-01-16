@@ -2,7 +2,10 @@
 
 import java.util.Scanner;
 
-// Program to find and return the length of a string without using the length() method
+/*
+ * Program: Manual String Length
+ * Purpose: Finds string length without using built-in .length() method (using exception handling hack).
+ */
 public class StringLength {
 
     // Finds the length of a string without using the built-in length() method
@@ -33,4 +36,3 @@ public class StringLength {
         scanner.close();
     }
 }
-

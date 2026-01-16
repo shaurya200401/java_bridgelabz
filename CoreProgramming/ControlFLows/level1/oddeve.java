@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Odd or Even Printer
+ * Purpose: Iterates from 1 to a given number and prints whether each number is Odd or Even.
+ */
 public class oddeve {
     public static void main(String[] args) {
         // Read limit
@@ -20,5 +24,6 @@ public class oddeve {
         } else {
             System.out.println("Not a natural number");
         }
+        sc.close();
     }
 }

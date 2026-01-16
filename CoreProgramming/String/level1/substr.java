@@ -1,7 +1,14 @@
 ﻿package String.level1;
+
 import java.util.Scanner;
 
+/*
+ * Program: Manual Substring
+ * Purpose: Extracts a substring manually and verifies with built-in .substring().
+ */
 public class substr {
+
+    // Method to extract substring manually
     public static String getManualSubstring(String text, int start, int end) {
         String sub = "";
         for (int i = start; i < end; i++) {
@@ -18,10 +25,12 @@ public class substr {
         int start = sc.nextInt();
         int end = sc.nextInt();
 
+        // Compare results
         String manual = getManualSubstring(text, start, end);
         String builtIn = text.substring(start, end);
 
         System.out.println("Manual: " + manual + " | Built-in: " + builtIn);
         System.out.println("Comparison: " + manual.equals(builtIn));
+        sc.close();
     }
 }

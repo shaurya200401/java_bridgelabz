@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Odd or Even Labeler
+ * Purpose: Iterates from 1 to a given number, labeling each as "Odd" or "Even".
+ */
 public class oddeve {
     public static void main(String[] args) {
         // Read input

@@ -3,18 +3,25 @@ package Extras;
 import java.util.Random;
 import java.util.Scanner;
 
+/*
+ * Program: Number Guessing Game
+ * Purpose: A game where the user tries to guess a random number between 1 and 100.
+ */
 public class NumberGuessingGame {
 
+    // Method to generate random number
     public static int generateNumber() {
         Random rand = new Random();
         return rand.nextInt(100) + 1;
     }
 
+    // Method to get user input
     public static int getUserGuess(Scanner sc) {
         System.out.print("Enter your guess (1-100): ");
         return sc.nextInt();
     }
 
+    // Method to check guess against target
     public static String checkGuess(int guess, int target) {
         if (guess > target) {
             return "Too high!";
@@ -25,6 +32,7 @@ public class NumberGuessingGame {
         }
     }
 
+    // Main game logic loop
     public static void playGame() {
         Scanner sc = new Scanner(System.in);
         int target = generateNumber();
@@ -33,6 +41,7 @@ public class NumberGuessingGame {
 
         System.out.println("Thinking of a number between 1 and 100...");
 
+        // Loop until correct guess
         while (!result.equals("Correct!")) {
             int guess = getUserGuess(sc);
             attempts++;

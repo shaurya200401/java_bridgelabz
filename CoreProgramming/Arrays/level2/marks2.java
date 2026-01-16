@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Student Marks Report (Switch Case)
+ * Purpose: A variation of the marks report program using Switch expressions for subject names.
+ */
 public class marks2 {
     public static void main(String[] args) {
         // Read input
@@ -59,5 +63,6 @@ public class marks2 {
             System.out.printf("Student %d: Physics = %d, Chemistry = %d, Maths = %d, Percentage = %.2f%%, Grade = %s\n",
                     (i + 1), marks[i][0], marks[i][1], marks[i][2], percentage[i], grade[i]);
         }
+        sc.close();
     }
 }

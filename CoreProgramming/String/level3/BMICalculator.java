@@ -2,7 +2,10 @@ package String.level3;
 
 import java.util.Scanner;
 
-// Program to calculate BMI of 10 members and display their status
+/*
+ * Program: BMI Calculator
+ * Purpose: Calculates Body Mass Index (BMI) for members and categorizes them by status.
+ */
 public class BMICalculator {
 
     // Method to calculate BMI and Status
@@ -53,16 +56,6 @@ public class BMICalculator {
         System.out.println("Enter Weight(kg) and Height(cm) for 10 members:");
         for (int i = 0; i < n; i++) {
             System.out.println("Person " + (i + 1) + ":");
-            // For simplicity in testing, we can use random generation or prompt
-            // Prompt implies user input. I'll uncomment the prompt or generate if tedious.
-            // Prompt says "Take user input...". I will use scanner.
-            /*
-             * System.out.print("Weight (kg): ");
-             * data[i][0] = scanner.nextDouble();
-             * System.out.print("Height (cm): ");
-             * data[i][1] = scanner.nextDouble();
-             */
-
             // For faster demonstration, generating valid random data
             // weight 40-100, height 150-200
             data[i][0] = 40 + (Math.random() * 60);

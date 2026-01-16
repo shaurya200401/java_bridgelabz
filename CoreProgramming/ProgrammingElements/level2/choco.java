@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Chocolate Distributor
+ * Purpose: Calculates how many chocolates each child gets and how many are left over.
+ */
 public class choco {
     public static void main(String[] args) {
         // Take input
@@ -17,7 +21,7 @@ public class choco {
 
         System.out.println("The number of chocolates each child gets is " + eachGets +
                 " and the number of remaining chocolates are " + remaining);
+        sc.close();
     }
 
 }
-

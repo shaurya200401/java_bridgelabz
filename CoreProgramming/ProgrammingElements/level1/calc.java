@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Basic Calculator
+ * Purpose: Performs basic arithmetic operations (Addition, Subtraction, Multiplication, Division) on two numbers.
+ */
 public class calc {
     public static void main(String[] args) {
         // Take input from user
@@ -17,7 +21,7 @@ public class calc {
         System.out.println("Subtraction: " + (number1 - number2));
         System.out.println("Multiplication: " + (number1 * number2));
         System.out.println("Division: " + (number1 / number2));
+        input.close();
     }
 
 }
-

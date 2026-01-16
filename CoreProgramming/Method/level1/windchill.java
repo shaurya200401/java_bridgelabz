@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Wind Chill Calculator
+ * Purpose: Calculates wind chill temperature given air temperature (F) and wind speed (mph).
+ */
 public class windchill {
     public static void main(String[] args) {
         // Read input
@@ -12,6 +16,7 @@ public class windchill {
         // Calculate wind chill
         windchill obj = new windchill();
         System.out.printf("Wind Chill Temperature: %.2f\n", obj.calculateWindChill(t, v));
+        sc.close();
     }
 
     public double calculateWindChill(double temp, double windSpeed) {

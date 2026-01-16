@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Employee Bonus Calculator
+ * Purpose: Determines bonus eligibility based on salary and years of service. A 5% bonus is awarded if service exceeds 5 years.
+ */
 public class bonus {
     public static void main(String[] args) {
         // Read input

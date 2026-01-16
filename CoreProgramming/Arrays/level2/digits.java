@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Digit Frequency Counter
+ * Purpose: Counts the frequency of each digit (0-9) in a user-input number.
+ */
 public class digits {
     public static void main(String[] args) {
         // Read number
@@ -29,5 +33,6 @@ public class digits {
                 System.out.println("Digit " + i + " occurs " + frequency[i] + " time(s).");
             }
         }
+        sc.close();
     }
 }

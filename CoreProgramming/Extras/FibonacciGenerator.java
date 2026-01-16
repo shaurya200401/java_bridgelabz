@@ -2,8 +2,13 @@ package Extras;
 
 import java.util.Scanner;
 
+/*
+ * Program: Fibonacci Sequence Generator
+ * Purpose: Generates the Fibonacci sequence up to a specified number of terms.
+ */
 public class FibonacciGenerator {
 
+    // Method to generate and print Fibonacci series
     public static void generateFibonacci(int n) {
         int first = 0, second = 1;
         System.out.print("Fibonacci Sequence: ");
@@ -22,6 +27,7 @@ public class FibonacciGenerator {
         System.out.print("Enter number of terms: ");
         int terms = sc.nextInt();
 
+        // Generate sequence
         generateFibonacci(terms);
         sc.close();
     }

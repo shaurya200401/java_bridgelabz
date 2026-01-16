@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Weight Converter
+ * Purpose: Converts weight from pounds to kilograms.
+ */
 public class poundkg {
     public static void main(String[] args) {
         // Take input
@@ -12,7 +16,7 @@ public class poundkg {
         // Convert to Kg
         double kilograms = pounds / 2.2;
         System.out.println("The weight of the person in pound is " + pounds + " and in kg is " + kilograms);
+        sc.close();
     }
 
 }
-

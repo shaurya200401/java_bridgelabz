@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Power Calculator
+ * Purpose: Calculates the value of a base number raised to a positive exponent using a for loop.
+ */
 public class power {
     public static void main(String[] args) {
         // Read input

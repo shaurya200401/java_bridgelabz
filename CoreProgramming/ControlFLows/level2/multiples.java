@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Multiple Finder (Under 100)
+ * Purpose: Finds and prints multiples of a given number (less than 100) backwards from 100 to 1.
+ */
 public class multiples {
     public static void main(String[] args) {
         // Read input
@@ -21,4 +25,3 @@ public class multiples {
         sc.close();
     }
 }
-

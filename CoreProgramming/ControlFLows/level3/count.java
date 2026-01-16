@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Digit Counter
+ * Purpose: Counts the number of digits in a given integer.
+ */
 public class count {
     public static void main(String[] args) {
         // Read input
@@ -22,5 +26,6 @@ public class count {
         }
 
         System.out.println("Number of digits: " + count);
+        sc.close();
     }
 }

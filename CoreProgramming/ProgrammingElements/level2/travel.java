@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Travel Analyzer
+ * Purpose: Calculates total distance and average speed of a trip involving three cities.
+ */
 public class travel {
     public static void main(String[] args) {
         // Take inputs
@@ -33,11 +37,11 @@ public class travel {
         double speed = totalDistance / time;
 
         System.out.println("Traveler: " + name);
-        System.out.println("Route: " + fromCity + " â†’ " + viaCity + " â†’ " + toCity);
+        System.out.println("Route: " + fromCity + " -> " + viaCity + " -> " + toCity);
         System.out.println("Total Distance: " + totalDistance + " miles");
         System.out.println("Time Taken: " + time + " hours");
         System.out.println("Average Speed: " + speed + " miles/hour");
+        sc.close();
     }
 
 }
-

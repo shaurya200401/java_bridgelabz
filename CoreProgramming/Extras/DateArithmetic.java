@@ -4,12 +4,19 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 
+/*
+ * Program: Date Arithmetic
+ * Purpose: Demonstrates adding/subtracting days, months, and years from a date.
+ */
 public class DateArithmetic {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
+        // Read date input
         System.out.print("Enter date (yyyy-MM-dd): ");
         String input = sc.nextLine();
 
+        // Parse input to LocalDate
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
         LocalDate date = LocalDate.parse(input, formatter);
 

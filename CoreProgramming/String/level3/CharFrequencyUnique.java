@@ -2,9 +2,13 @@
 
 import java.util.Scanner;
 
-// Program to find frequency of characters by finding unique characters first
+/*
+ * Program: Character Frequency (Unique Arrays)
+ * Purpose: Finds frequency of characters by first isolating unique characters.
+ */
 public class CharFrequencyUnique {
 
+    // Helper to find length manually
     public static int findLength(String text) {
         int len = 0;
         try {
@@ -80,4 +84,3 @@ public class CharFrequencyUnique {
         scanner.close();
     }
 }
-

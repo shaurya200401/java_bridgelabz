@@ -1,5 +1,9 @@
 ﻿package Method.level2;
 
+/*
+ * Program: Unit Converter (Temp, Mass, Volume)
+ * Purpose: Provides methods to convert Fahrenheit <-> Celsius, Pounds <-> Kilograms, and Gallons <-> Liters.
+ */
 public class unitconvert3 {
     // Check unit conversions for temp, mass, volume
     public static double convertFtoC(double f) {

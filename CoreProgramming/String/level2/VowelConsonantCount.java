@@ -2,7 +2,10 @@
 
 import java.util.Scanner;
 
-// Program to count vowels and consonants
+/*
+ * Program: Vowel and Consonant Counter
+ * Purpose: Counts Vowels and Consonants in a string using manual character type checking.
+ */
 public class VowelConsonantCount {
 
     // Finds string length manually
@@ -66,4 +69,3 @@ public class VowelConsonantCount {
         scanner.close();
     }
 }
-

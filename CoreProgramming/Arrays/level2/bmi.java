@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: BMI Calculator
+ * Purpose: Calculates BMI for multiple persons and classifies them into weight status categories.
+ */
 public class bmi {
     public static void main(String[] args) {
         // Read input
@@ -30,6 +34,7 @@ public class bmi {
             height[i] = h;
         }
 
+        // Calculate BMI and check conditions
         for (int i = 0; i < persons; i++) {
             bmi[i] = weight[i] / (height[i] * height[i]);
             if (bmi[i] <= 18.4) {
@@ -50,5 +55,6 @@ public class bmi {
                     ", BMI = " + bmi[i] +
                     ", Status = " + status[i]);
         }
+        sc.close();
     }
 }

@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Integer Operations
+ * Purpose: Performs mixed arithmetic operations on three integers input by the user.
+ */
 public class intop {
     public static void main(String[] args) {
         // Take input
@@ -21,7 +25,7 @@ public class intop {
 
         System.out.println(
                 "The results of Int Operations are " + result1 + ", " + result2 + ", " + result3 + ", " + result4);
+        sc.close();
     }
 
 }
-

@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: FizzBuzz
+ * Purpose: Prints numbers from 1 to N, replacing multiples of 3 with "Fizz", multiples of 5 with "Buzz", and multiples of both with "FizzBuzz".
+ */
 public class fizzbuzz {
     public static void main(String[] args) {
         // Read input

@@ -2,6 +2,11 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Custom Calendar Display
+ * Purpose: Generates and displays a calendar for a given month and year.
+ * Handles month names, days in month, leap years, and starting day calculation.
+ */
 public class calendar {
 
     public static String getMonthName(int month) {
@@ -58,5 +63,6 @@ public class calendar {
                 System.out.println();
             }
         }
+        sc.close();
     }
 }

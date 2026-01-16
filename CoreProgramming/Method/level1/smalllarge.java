@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Smallest and Largest Number Finder
+ * Purpose: Finds the smallest and largest among three integers using Math.min and Math.max.
+ */
 public class smalllarge {
     public static void main(String[] args) {
         // Read input
@@ -12,6 +16,7 @@ public class smalllarge {
         // Find smallest and largest
         int[] results = findSmallestAndLargest(n1, n2, n3);
         System.out.println("Smallest: " + results[0] + ", Largest: " + results[1]);
+        sc.close();
     }
 
     public static int[] findSmallestAndLargest(int n1, int n2, int n3) {

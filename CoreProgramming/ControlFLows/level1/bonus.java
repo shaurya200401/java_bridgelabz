@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Employee Bonus Calculator
+ * Purpose: Determines if an employee is eligible for a bonus based on years of service.
+ */
 public class bonus {
     public static void main(String[] args) {
         // Read input
@@ -18,7 +22,6 @@ public class bonus {
         } else {
             System.out.println("No bonus");
         }
-
+        sc.close();
     }
 }
-

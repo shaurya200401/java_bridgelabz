@@ -1,5 +1,9 @@
 ﻿package Method.level2;
 
+/*
+ * Program: Unit Converter (Length)
+ * Purpose: Provides methods to convert between Kilometers <-> Miles and Meters <-> Feet.
+ */
 public class unitconvert {
     // Unit conversion methods
     public static double convertKmToMiles(double km) {

@@ -2,7 +2,10 @@
 
 import java.util.Scanner;
 
-// Program to return words and their lengths in a 2D array
+/*
+ * Program: Word Lengths Tabulator
+ * Purpose: Identifies words in a sentence and displays them alongside their lengths.
+ */
 public class WordLengths {
 
     // Finds string length manually
@@ -96,4 +99,3 @@ public class WordLengths {
         scanner.close();
     }
 }
-

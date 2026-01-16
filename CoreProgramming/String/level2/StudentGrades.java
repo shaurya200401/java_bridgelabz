@@ -2,7 +2,10 @@
 
 import java.util.Scanner;
 
-// Program to calculate student grades based on Physics, Chemistry, and Maths marks
+/*
+ * Program: Student Grade Calculator
+ * Purpose: Generates random scores, calculates averages and grades, and displays a scorecard.
+ */
 public class StudentGrades {
 
     // Generates random 2-digit scores for Physics, Chemistry, and Math for n
@@ -90,4 +93,3 @@ public class StudentGrades {
         scanner.close();
     }
 }
-

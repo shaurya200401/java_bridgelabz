@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Sum of Natural Numbers (While Loop)
+ * Purpose: Calculates sum of natural numbers using both formula and while loop for comparison.
+ */
 public class sum3 {
     public static void main(String[] args) {
         // Read input
@@ -22,6 +26,6 @@ public class sum3 {
         } else {
             System.out.println("Not a natural number");
         }
-
+        sc.close();
     }
 }

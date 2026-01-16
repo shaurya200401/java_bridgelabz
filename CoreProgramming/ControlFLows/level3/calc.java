@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Simple Calculator
+ * Purpose: Performs basic arithmetic operations (+, -, *, /) on two numbers based on user input.
+ */
 public class calc {
     public static void main(String[] args) {
         // Read input
@@ -12,7 +16,6 @@ public class calc {
         String op = sc.next();
 
         // Perform calculation
-
         switch (op) {
             case "+":
                 System.out.println("Result: " + (first + second));
@@ -32,5 +35,6 @@ public class calc {
             default:
                 System.out.println("Invalid Operator");
         }
+        sc.close();
     }
 }

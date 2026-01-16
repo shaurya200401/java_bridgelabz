@@ -1,5 +1,9 @@
 ﻿package Method.level2;
 
+/*
+ * Program: BMI Calculator (Method)
+ * Purpose: Calculates BMI and status for 10 persons using methods and arrays.
+ */
 public class bmi {
     public static void main(String[] args) {
         // Initialize data array

@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Greatest Factor Finder
+ * Purpose: Finds the greatest factor of a given number (excluding the number itself) using a loop descending from N-1.
+ */
 public class greatestfactor {
     public static void main(String[] args) {
         // Read input
@@ -21,4 +25,3 @@ public class greatestfactor {
         sc.close();
     }
 }
-

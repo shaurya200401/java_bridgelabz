@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Positive or Negative Checker
+ * Purpose: Determines if a given number is positive, negative, or zero.
+ */
 public class posneg {
     public static void main(String[] args) {
         // Read input
@@ -17,5 +21,6 @@ public class posneg {
         else
             System.out.println("Zero");
 
+        sc.close();
     }
 }

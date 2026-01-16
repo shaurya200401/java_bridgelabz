@@ -1,5 +1,9 @@
 ﻿package Method.level3;
 
+/*
+ * Program: Collinearity Checker
+ * Purpose: Checks if three points (x1, y1), (x2, y2), (x3, y3) are collinear using both Slope and Area methods.
+ */
 public class collinear {
     public static void main(String[] args) {
         double x1 = 2, y1 = 4;

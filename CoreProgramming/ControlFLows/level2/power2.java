@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Power Calculator (While Loop)
+ * Purpose: Calculates the value of a base number raised to a positive exponent using a while loop.
+ */
 public class power2 {
     public static void main(String[] args) {
         // Read input

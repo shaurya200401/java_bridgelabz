@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Sum Calculator (Until 0)
+ * Purpose: Continuously adds numbers entered by the user until 0 is entered.
+ */
 public class sum {
     public static void main(String[] args) {
         // Calculate sum
@@ -15,5 +19,6 @@ public class sum {
             total += val;
         }
         System.out.println("Total sum = " + total);
+        sc.close();
     }
 }

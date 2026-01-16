@@ -4,21 +4,22 @@ import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 
+/*
+ * Program: Time Zone Display
+ * Purpose: Displays the current date and time for different specified time zones.
+ */
 public class TimeZones {
     public static void main(String[] args) {
+        // Define zones
+        String[] zones = { "UTC", "Asia/Kolkata", "America/New_York", "Europe/London", "Asia/Tokyo" };
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss z");
 
-        // GMT (Greenwich Mean Time)
-        ZonedDateTime gmtTime = ZonedDateTime.now(ZoneId.of("GMT"));
-        System.out.println("GMT: " + gmtTime.format(formatter));
+        System.out.println("Current Time in Different Zones:");
 
-        // IST (Indian Standard Time)
-        ZonedDateTime istTime = ZonedDateTime.now(ZoneId.of("Asia/Kolkata"));
-        System.out.println("IST: " + istTime.format(formatter));
-
-        // PST (Pacific Standard Time)
-        // using America/Los_Angeles as proxy for PST/PDT
-        ZonedDateTime pstTime = ZonedDateTime.now(ZoneId.of("America/Los_Angeles"));
-        System.out.println("PST: " + pstTime.format(formatter));
+        // Loop through zones and print time
+        for (String zone : zones) {
+            ZonedDateTime zdt = ZonedDateTime.now(ZoneId.of(zone));
+            System.out.printf("%-20s : %s%n", zone, zdt.format(formatter));
+        }
     }
 }

@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Euclidean Distance and Line Equation
+ * Purpose: Calculates the Euclidean distance between two points and finds the equation of the line connecting them (y = mx + b).
+ */
 public class euclidean {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -18,5 +22,6 @@ public class euclidean {
 
         System.out.println("Distance: " + distance);
         System.out.println("Equation: y = " + m + "x + " + b);
+        sc.close();
     }
 }

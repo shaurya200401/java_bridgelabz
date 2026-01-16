@@ -1,5 +1,9 @@
 ﻿package Method.level2;
 
+/*
+ * Program: Natural Number Sum (Recursion vs Formula)
+ * Purpose: Compares the sum of N natural numbers calculated via recursion and the mathematical formula.
+ */
 public class natsum {
     public static void main(String[] args) {
         int n = 10; // Sample input

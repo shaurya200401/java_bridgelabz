@@ -1,5 +1,10 @@
 ﻿package Method.level3;
 
+/*
+ * Program: Number Operations Utility I
+ * Purpose: Provides methods to handle digit operations like count, extraction, and finding min/max digits.
+ * Also checks for Duck Number and Armstrong Number.
+ */
 public class numcheck1 {
     public static int countDigits(int n) {
         return String.valueOf(Math.abs(n)).length();

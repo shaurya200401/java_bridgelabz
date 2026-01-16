@@ -2,9 +2,13 @@ package String.level3;
 
 import java.util.Scanner;
 
-// Program to check if two strings are anagrams
+/*
+ * Program: Anagram Checker
+ * Purpose: Checks if two strings are anagrams using frequency arrays.
+ */
 public class AnagramCheck {
 
+    // Helper to find string length manually
     public static int findLength(String text) {
         int len = 0;
         try {

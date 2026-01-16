@@ -2,8 +2,13 @@ package Extras;
 
 import java.util.Scanner;
 
+/*
+ * Program: GCD and LCM Calculator
+ * Purpose: Calculates the Greatest Common Divisor and Least Common Multiple of two numbers.
+ */
 public class GcdLcmCalculator {
 
+    // Method to calculate GCD using Euclidean algorithm
     public static int calculateGCD(int a, int b) {
         while (b != 0) {
             int temp = b;
@@ -13,6 +18,7 @@ public class GcdLcmCalculator {
         return a;
     }
 
+    // Method to calculate LCM using GCD
     public static int calculateLCM(int a, int b) {
         if (a == 0 || b == 0)
             return 0;
@@ -26,6 +32,7 @@ public class GcdLcmCalculator {
         System.out.print("Enter second number: ");
         int num2 = sc.nextInt();
 
+        // Perform calculations
         int gcd = calculateGCD(num1, num2);
         int lcm = calculateLCM(num1, num2);
 

@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Sum Calculator (Until Negative/Zero)
+ * Purpose: Adds numbers entered by the user until a negative number or zero is entered.
+ */
 public class sum2 {
     public static void main(String[] args) {
         // Calculate sum
@@ -15,5 +19,6 @@ public class sum2 {
             total2 += val;
         }
         System.out.println("Total sum = " + total2);
+        sc.close();
     }
 }

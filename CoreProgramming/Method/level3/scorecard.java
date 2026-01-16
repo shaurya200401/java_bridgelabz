@@ -1,5 +1,9 @@
 ﻿package Method.level3;
 
+/*
+ * Program: Student Scorecard Generator
+ * Purpose: Generates random scores for Physics, Chemistry, and Math for student, calculating Total, Average, and Percentage.
+ */
 public class scorecard {
     public static void main(String[] args) {
         int n = 5; // example number of students

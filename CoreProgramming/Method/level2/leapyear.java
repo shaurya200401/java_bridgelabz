@@ -1,5 +1,9 @@
 ﻿package Method.level2;
 
+/*
+ * Program: Leap Year Check (Method)
+ * Purpose: Determines if a given year is a leap year using a boolean method.
+ */
 public class leapyear {
     public static boolean isLeapYear(int year) {
         // Leap year logic

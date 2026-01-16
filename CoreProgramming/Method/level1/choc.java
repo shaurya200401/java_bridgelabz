@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Chocolate Distributor
+ * Purpose: Calculates how many chocolates each child gets and the remaining chocolates.
+ */
 public class choc {
     public static void main(String[] args) {
         // Read input
@@ -13,6 +17,7 @@ public class choc {
         int[] result = findRemainderAndQuotient(chocolates, children);
         System.out.println("Each child gets: " + result[1]);
         System.out.println("Remaining chocolates: " + result[0]);
+        sc.close();
     }
 
     public static int[] findRemainderAndQuotient(int number, int divisor) {

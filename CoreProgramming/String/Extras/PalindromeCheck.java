@@ -2,30 +2,37 @@ package String.Extras;
 
 import java.util.Scanner;
 
+/*
+ * Program: Palindrome Checker (String)
+ * Purpose: Verifies if a user-input string is a palindrome.
+ */
 public class PalindromeCheck {
+
+    // Method to check palindrome property
+    public static boolean isPalindrome(String str) {
+        String clean = str.replaceAll("\\s+", "").toLowerCase();
+        int i = 0, j = clean.length() - 1;
+
+        while (i < j) {
+            if (clean.charAt(i) != clean.charAt(j)) {
+                return false;
+            }
+            i++;
+            j--;
+        }
+        return true;
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a string: ");
-        String str = sc.nextLine();
+        String input = sc.nextLine();
 
-        String cleanStr = str.replaceAll("\\s+", "").toLowerCase();
-        int left = 0;
-        int right = cleanStr.length() - 1;
-        boolean isPalindrome = true;
-
-        while (left < right) {
-            if (cleanStr.charAt(left) != cleanStr.charAt(right)) {
-                isPalindrome = false;
-                break;
-            }
-            left++;
-            right--;
-        }
-
-        if (isPalindrome) {
-            System.out.println(str + " is a palindrome.");
+        // Output result
+        if (isPalindrome(input)) {
+            System.out.println("The string is a palindrome.");
         } else {
-            System.out.println(str + " is not a palindrome.");
+            System.out.println("The string is NOT a palindrome.");
         }
         sc.close();
     }

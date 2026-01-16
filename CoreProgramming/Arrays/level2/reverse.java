@@ -2,6 +2,10 @@
 
 import java.util.Scanner;
 
+/*
+ * Program: Number Reverser
+ * Purpose: Reverses the digits of a number using arrays.
+ */
 public class reverse {
     public static void main(String[] args) {
         // Read input
@@ -36,5 +40,6 @@ public class reverse {
         for (int i = 0; i < count; i++) {
             System.out.print(reversed[i]);
         }
+        sc.close();
     }
 }
