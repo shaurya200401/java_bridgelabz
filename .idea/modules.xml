@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/Java_capgemini.iml" filepath="$PROJECT_DIR$/.idea/Java_capgemini.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/Java_Bridgelabz.iml" filepath="$PROJECT_DIR$/Java_Bridgelabz.iml" />
+>>>>>>> a6572ec (added oop fundamentals)
     </modules>
   </component>
 </project>
