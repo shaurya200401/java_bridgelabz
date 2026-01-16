@@ -4,12 +4,14 @@ import java.util.Scanner;
 
 public class power2 {
     public static void main(String[] args) {
+        // Read input
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number: ");
         int number = sc.nextInt();
         System.out.print("Enter power: ");
         int power = sc.nextInt();
 
+        // Calculate power using while loop
         if (number > 0 && power >= 0) {
             int result = 1;
             int counter = 0;

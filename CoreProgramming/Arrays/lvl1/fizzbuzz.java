@@ -4,12 +4,15 @@ import java.util.Scanner;
 
 public class fizzbuzz {
     public static void main(String[] args) {
+        // Read input
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
         if (number <= 0) {
             System.out.println("Error: Not a positive integer");
             return;
         }
+
+        // Generate FizzBuzz results
         String[] results = new String[number + 1];
         for (int i = 0; i <= number; i++) {
             if (i % 3 == 0 && i % 5 == 0 && i != 0) {

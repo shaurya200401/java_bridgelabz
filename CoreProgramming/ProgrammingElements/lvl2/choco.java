@@ -1,13 +1,17 @@
 package ProgrammingElements.lvl2;
+
 import java.util.Scanner;
+
 public class choco {
     public static void main(String[] args) {
+        // Take input
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number of chocolates: ");
         int chocolates = sc.nextInt();
         System.out.print("Enter number of children: ");
         int children = sc.nextInt();
 
+        // Calculate distribution
         int eachGets = chocolates / children;
         int remaining = chocolates % children;
 

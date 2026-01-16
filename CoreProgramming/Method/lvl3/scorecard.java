@@ -8,9 +8,10 @@ public class scorecard {
         System.out.println("ID\tPhys\tChem\tMath\tTotal\tAvg\tPerc");
         for (int i = 0; i < n; i++) {
             int total = 0;
-            System.out.print((i+1) + "\t");
+            System.out.print((i + 1) + "\t");
             for (int j = 0; j < 3; j++) {
-                scores[i][j] = 10 + (int)(Math.random() * 90);
+                // Generate random score
+                scores[i][j] = 10 + (int) (Math.random() * 90);
                 total += scores[i][j];
                 System.out.print(scores[i][j] + "\t");
             }

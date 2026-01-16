@@ -1,8 +1,10 @@
 package ControlFLows.lvl3;
+
 import java.util.Scanner;
 
 public class count {
     public static void main(String[] args) {
+        // Read input
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter an integer: ");
         int number = sc.nextInt();
@@ -15,7 +17,7 @@ public class count {
             // Loop until number is not 0
             while (number != 0) {
                 number = number / 10; // Remove the last digit
-                count++;              // Increase count
+                count++; // Increase count
             }
         }
 

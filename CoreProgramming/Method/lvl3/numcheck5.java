@@ -1,11 +1,16 @@
 package Method.lvl3;
+
 public class numcheck5 {
     public static int[] getFactors(int n) {
         int count = 0;
-        for (int i = 1; i <= n; i++) if (n % i == 0) count++;
+        for (int i = 1; i <= n; i++)
+            if (n % i == 0)
+                count++;
         int[] factors = new int[count];
         int index = 0;
-        for (int i = 1; i <= n; i++) if (n % i == 0) factors[index++] = i;
+        for (int i = 1; i <= n; i++)
+            if (n % i == 0)
+                factors[index++] = i;
         return factors;
     }
 
@@ -15,7 +20,8 @@ public class numcheck5 {
 
     public static int sumFactors(int[] factors) {
         int sum = 0;
-        for (int f : factors) sum += f;
+        for (int f : factors)
+            sum += f;
         return sum;
     }
 
@@ -29,7 +35,8 @@ public class numcheck5 {
         int totalSum = 0;
         for (int d : digits) {
             int fact = 1;
-            for (int i = 1; i <= d; i++) fact *= i;
+            for (int i = 1; i <= d; i++)
+                fact *= i;
             totalSum += fact;
         }
         return totalSum == n;
@@ -37,6 +44,7 @@ public class numcheck5 {
 
     public static void main(String[] args) {
         int num = 145;
+        // Verify Strong and Perfect numbers
         System.out.println(num + " is Strong: " + isStrong(num));
         System.out.println("6 is Perfect: " + isPerfect(6));
     }

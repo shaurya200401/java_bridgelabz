@@ -1,10 +1,13 @@
 package ControlFLows.lvl3;
+
 public class week {
     public static void main(String[] args) {
-        // Taking input from command-line arguments as requested
+        // Taking input from command-line arguments as requested (month, day, year)
         int m = Integer.parseInt(args[0]);
         int d = Integer.parseInt(args[1]);
         int y = Integer.parseInt(args[2]);
+
+        // Calculate day of week logic
 
         int y0 = y - (14 - m) / 12;
         int x = y0 + y0 / 4 - y0 / 100 + y0 / 400;

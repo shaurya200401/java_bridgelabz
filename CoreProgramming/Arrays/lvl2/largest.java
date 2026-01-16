@@ -1,14 +1,18 @@
 package Arrays.lvl2;
+
 import java.util.Scanner;
 
 public class largest {
     public static void main(String[] args) {
+        // Read input
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
         if (number <= 0) {
             System.out.println("Error: Not a natural number");
             return;
         }
+
+        // Extract digits
         int maxDigit = 10;
         int[] digits = new int[maxDigit];
         int index = 0;

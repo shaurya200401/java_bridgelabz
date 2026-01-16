@@ -4,15 +4,20 @@ import java.util.Scanner;
 
 public class oddeve {
     public static void main(String[] args) {
+        // Read input
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
         if (number <= 0) {
             System.out.println("Error: Not a natural number");
             return;
         }
+
+        // Initialize arrays
         int[] odd = new int[number / 2 + 1];
         int[] even = new int[number / 2 + 1];
         int oddIndex = 0, evenIndex = 0;
+
+        // Loop to separate
         for (int i = 1; i <= number; i++) {
             if (i % 2 == 0) {
                 even[evenIndex++] = i;

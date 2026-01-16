@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class reverse {
     public static void main(String[] args) {
+        // Read input
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
         if (number <= 0) {
@@ -11,6 +12,7 @@ public class reverse {
             return;
         }
 
+        // Count digits
         int temp = number;
         int count = 0;
         while (temp != 0) {

@@ -6,10 +6,12 @@ import java.util.Scanner;
 
 public class multiples2 {
     public static void main(String[] args) {
+        // Read input
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a positive integer less than 100: ");
         int number = sc.nextInt();
 
+        // Find multiples using while loop
         if (number > 0 && number < 100) {
             int i = 100;
             while (i >= 1) {

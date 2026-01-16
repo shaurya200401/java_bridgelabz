@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class bonus {
     public static void main(String[] args) {
+        // Initialize
         Scanner sc = new Scanner(System.in);
         int n = 10;
         double[] salary = new double[n];

@@ -1,9 +1,12 @@
 package Method.lvl1;
+
 public class spring {
     public static void main(String[] args) {
+        // Read arguments
         int month = Integer.parseInt(args[0]);
         int day = Integer.parseInt(args[1]);
 
+        // Check if spring season
         if (isSpring(month, day)) {
             System.out.println("Its a Spring Season");
         } else {

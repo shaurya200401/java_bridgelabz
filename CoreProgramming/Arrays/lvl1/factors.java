@@ -4,12 +4,15 @@ import java.util.Scanner;
 
 public class factors {
     public static void main(String[] args) {
+        // Read input
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
         if (number <= 0) {
             System.out.println("Error: Not a natural number");
             return;
         }
+
+        // Find factors
         int maxFactor = 10;
         int[] factors = new int[maxFactor];
         int index = 0;

@@ -8,6 +8,7 @@ public class salary {
         for (int i = 0; i < 10; i++) {
             data[i][0] = 10000 + Math.random() * 90000; // 5-digit salary
             data[i][1] = Math.random() * 10; // Service years
+            // Calculate bonus based on service years
             double rate = (data[i][1] > 5) ? 0.05 : 0.02;
             data[i][2] = rate * 100;
             data[i][3] = data[i][0] * rate;

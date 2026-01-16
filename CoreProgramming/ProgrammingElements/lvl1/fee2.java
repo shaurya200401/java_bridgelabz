@@ -1,10 +1,14 @@
 package ProgrammingElements.lvl1;
+
 import java.util.Scanner;
+
 public class fee2 {
     public static void main(String[] args) {
+        // Take input
         Scanner input = new Scanner(System.in);
         System.out.print("Enter fee: ");
         double fee = input.nextDouble();
+
         System.out.print("Enter discount percent: ");
         double discountPercent = input.nextDouble();
         double discount = fee * discountPercent / 100;

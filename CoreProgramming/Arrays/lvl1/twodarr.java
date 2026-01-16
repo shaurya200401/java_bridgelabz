@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class twodarr {
     public static void main(String[] args) {
+        // Read dimensions
         Scanner sc = new Scanner(System.in);
         int rows = sc.nextInt();
         int cols = sc.nextInt();
@@ -11,6 +12,8 @@ public class twodarr {
             System.out.println("Error: Rows and columns must be natural numbers");
             return;
         }
+
+        // Read matrix
         int[][] matrix = new int[rows][cols];
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {

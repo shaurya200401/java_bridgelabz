@@ -1,8 +1,10 @@
 package ControlFLows.lvl3;
+
 import java.util.Scanner;
 
 public class abundant {
     public static void main(String[] args) {
+        // Read input
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter an integer: ");
         int number = sc.nextInt();

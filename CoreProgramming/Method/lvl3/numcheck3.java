@@ -1,8 +1,10 @@
 package Method.lvl3;
+
 public class numcheck3 {
     public static int[] reverseArray(int[] digits) {
         int[] reversed = new int[digits.length];
-        for (int i = 0; i < digits.length; i++) reversed[i] = digits[digits.length - 1 - i];
+        for (int i = 0; i < digits.length; i++)
+            reversed[i] = digits[digits.length - 1 - i];
         return reversed;
     }
 
@@ -12,6 +14,7 @@ public class numcheck3 {
 
     public static boolean isPalindrome(int n) {
         int[] original = numcheck1.getDigitsArray(n);
+        // Reverse array to check palindrome
         int[] reversed = reverseArray(original);
         return areArraysEqual(original, reversed);
     }

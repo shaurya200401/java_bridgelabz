@@ -1,13 +1,16 @@
 package Arrays.lvl2;
+
 import java.util.Scanner;
 
 public class marks {
     public static void main(String[] args) {
+        // Read input
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter number of students: ");
         int n = sc.nextInt();
 
+        // Initialize arrays
         int[][] marks = new int[n][3]; // [Physics, Chemistry, Maths]
         double[] percentage = new double[n];
         String[] grade = new String[n];

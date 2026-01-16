@@ -4,10 +4,12 @@ import java.util.Scanner;
 
 public class trig {
     public static void main(String[] args) {
+        // Read input
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter angle in degrees: ");
         double angle = sc.nextDouble();
 
+        // Calculate trig functions
         trig obj = new trig();
         double[] results = obj.calculateTrigonometricFunctions(angle);
 
@@ -16,6 +18,6 @@ public class trig {
 
     public double[] calculateTrigonometricFunctions(double angle) {
         double rad = Math.toRadians(angle);
-        return new double[]{Math.sin(rad), Math.cos(rad), Math.tan(rad)};
+        return new double[] { Math.sin(rad), Math.cos(rad), Math.tan(rad) };
     }
 }
