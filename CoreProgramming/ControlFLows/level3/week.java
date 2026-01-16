@@ -1,4 +1,4 @@
-package ControlFLows.lvl3;
+﻿package ControlFLows.level3;
 
 public class week {
     public static void main(String[] args) {

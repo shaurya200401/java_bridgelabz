@@ -1,4 +1,4 @@
-package ProgrammingElements.lvl1;
+﻿package ProgrammingElements.level1;
 
 public class fees {
     public static void main(String[] args) {
@@ -13,3 +13,4 @@ public class fees {
     }
 
 }
+

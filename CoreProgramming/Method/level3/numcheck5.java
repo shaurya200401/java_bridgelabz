@@ -1,4 +1,4 @@
-package Method.lvl3;
+﻿package Method.level3;
 
 public class numcheck5 {
     public static int[] getFactors(int n) {

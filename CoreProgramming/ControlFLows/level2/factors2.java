@@ -1,4 +1,4 @@
-package ControlFLows.lvl2;
+﻿package ControlFLows.level2;
 
 import java.util.Scanner;
 

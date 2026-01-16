@@ -1,4 +1,4 @@
-package Method.lvl2;
+﻿package Method.level2;
 
 public class quad {
     public static double[] findRoots(double a, double b, double c) {

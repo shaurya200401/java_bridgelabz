@@ -1,4 +1,4 @@
-package ControlFLows.lvl2;
+﻿package ControlFLows.level2;
 
 import java.util.Scanner;
 
@@ -21,3 +21,4 @@ public class multiples {
         sc.close();
     }
 }
+

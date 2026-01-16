@@ -1,4 +1,4 @@
-package ProgrammingElements.lvl2;
+﻿package ProgrammingElements.level2;
 
 import java.util.Scanner;
 
@@ -24,3 +24,4 @@ public class intop {
     }
 
 }
+

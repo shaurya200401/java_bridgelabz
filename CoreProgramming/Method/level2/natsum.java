@@ -1,4 +1,4 @@
-package Method.lvl2;
+﻿package Method.level2;
 
 public class natsum {
     public static void main(String[] args) {

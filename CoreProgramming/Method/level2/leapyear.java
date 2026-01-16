@@ -1,4 +1,4 @@
-package Method.lvl2;
+﻿package Method.level2;
 
 public class leapyear {
     public static boolean isLeapYear(int year) {

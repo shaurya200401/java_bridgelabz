@@ -1,4 +1,4 @@
-package CoreProgramming.String.lvl3;
+﻿package String.level3;
 
 import java.util.Scanner;
 
@@ -71,3 +71,4 @@ public class DeckOfCards {
         // Optional: Print total cards distributed logic check or remaining cards
     }
 }
+

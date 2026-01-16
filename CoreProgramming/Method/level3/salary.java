@@ -1,4 +1,4 @@
-package Method.lvl3;
+﻿package Method.level3;
 
 public class salary {
     public static void main(String[] args) {
