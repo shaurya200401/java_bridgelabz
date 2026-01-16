@@ -4,10 +4,12 @@ import java.util.Scanner;
 
 public class fizzbuzz2 {
     public static void main(String[] args) {
+        // Read input
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a positive integer: ");
         int n = sc.nextInt();
 
+        // FizzBuzz logic using while loop
         if (n > 0) {
             int i = 1;
             while (i <= n) {

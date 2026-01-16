@@ -4,10 +4,12 @@ import java.util.Scanner;
 
 public class multiples {
     public static void main(String[] args) {
+        // Read input
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a positive integer less than 100: ");
         int number = sc.nextInt();
 
+        // Find multiples logic
         if (number > 0 && number < 100) {
             for (int i = 100; i >= 1; i--) {
                 if (i % number == 0)

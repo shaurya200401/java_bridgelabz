@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class multi2 {
     public static void main(String[] args) {
+        // Take input
         Scanner sc = new Scanner(System.in);
-
         System.out.print("Enter a number between 6 and 9: ");
         int number = sc.nextInt();
 

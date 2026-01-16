@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class bmi {
     public static void main(String[] args) {
+        // Read input
         Scanner sc = new Scanner(System.in);
         int persons = sc.nextInt();
         if (persons <= 0) {
@@ -11,6 +12,7 @@ public class bmi {
             return;
         }
 
+        // Initialize arrays
         double[] weight = new double[persons];
         double[] height = new double[persons];
         double[] bmi = new double[persons];

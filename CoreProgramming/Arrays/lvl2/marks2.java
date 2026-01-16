@@ -4,11 +4,13 @@ import java.util.Scanner;
 
 public class marks2 {
     public static void main(String[] args) {
+        // Read input
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter number of students: ");
         int n = sc.nextInt();
 
+        // Initialize arrays
         int[][] marks = new int[n][3]; // [Physics, Chemistry, Maths]
         double[] percentage = new double[n];
         String[] grade = new String[n];

@@ -1,11 +1,15 @@
 package ControlFLows.lvl1;
+
 import java.util.Scanner;
 
 public class sum3 {
     public static void main(String[] args) {
+        // Read input
         Scanner sc = new Scanner(System.in);
         System.out.print("\nEnter a natural number: ");
         int m = sc.nextInt();
+
+        // Calculate sum
         if (m >= 0) {
             int sumFormula = m * (m + 1) / 2;
             int sumWhile = 0, i = 1;

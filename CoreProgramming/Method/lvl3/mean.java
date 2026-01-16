@@ -12,6 +12,7 @@ public class mean {
             heights[i] = rand.nextInt(101) + 150; // (0 to 100) + 150
         }
 
+        // Display stats
         System.out.println("Team Heights (cms): " + java.util.Arrays.toString(heights));
         System.out.println("Sum of Heights: " + findSum(heights));
         System.out.println("Mean Height: " + findMean(heights));
@@ -21,7 +22,8 @@ public class mean {
 
     public static int findSum(int[] arr) {
         int sum = 0;
-        for (int h : arr) sum += h;
+        for (int h : arr)
+            sum += h;
         return sum;
     }
 
@@ -31,13 +33,17 @@ public class mean {
 
     public static int findShortest(int[] arr) {
         int min = arr[0];
-        for (int h : arr) if (h < min) min = h;
+        for (int h : arr)
+            if (h < min)
+                min = h;
         return min;
     }
 
     public static int findTallest(int[] arr) {
         int max = arr[0];
-        for (int h : arr) if (h > max) max = h;
+        for (int h : arr)
+            if (h > max)
+                max = h;
         return max;
     }
 }

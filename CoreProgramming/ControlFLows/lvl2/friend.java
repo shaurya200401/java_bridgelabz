@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class friend {
     public static void main(String[] args) {
+        // Read input
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter age of Amar: ");

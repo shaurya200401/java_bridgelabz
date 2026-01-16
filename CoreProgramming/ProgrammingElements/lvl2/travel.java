@@ -1,7 +1,10 @@
 package ProgrammingElements.lvl2;
+
 import java.util.Scanner;
+
 public class travel {
     public static void main(String[] args) {
+        // Take inputs
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter your name: ");
@@ -25,6 +28,7 @@ public class travel {
         System.out.print("Enter time taken (in hours): ");
         double time = sc.nextDouble();
 
+        // Calculate total distance and speed
         double totalDistance = fromToVia + viaToFinalCity;
         double speed = totalDistance / time;
 

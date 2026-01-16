@@ -4,11 +4,12 @@ import java.util.Scanner;
 
 public class numstore {
     public static void main(String[] args) {
+        // Initialize
         Scanner sc = new Scanner(System.in);
 
-        double[] numbers = new double[10];  // array of 10 elements
-        double total = 0.0;                 // sum initialized to 0
-        int index = 0;                      // starting index
+        double[] numbers = new double[10]; // array of 10 elements
+        double total = 0.0; // sum initialized to 0
+        int index = 0; // starting index
 
         while (true) {
             System.out.print("Enter a number (0 or negative to stop): ");

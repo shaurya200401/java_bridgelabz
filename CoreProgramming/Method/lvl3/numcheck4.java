@@ -2,8 +2,11 @@ package Method.lvl3;
 
 public class numcheck4 {
     public static boolean isPrime(int n) {
-        if (n <= 1) return false;
-        for (int i = 2; i <= Math.sqrt(n); i++) if (n % i == 0) return false;
+        if (n <= 1)
+            return false;
+        for (int i = 2; i <= Math.sqrt(n); i++)
+            if (n % i == 0)
+                return false;
         return true;
     }
 
@@ -16,7 +19,10 @@ public class numcheck4 {
     public static boolean isSpy(int n) {
         int[] digits = numcheck1.getDigitsArray(n);
         int sum = 0, prod = 1;
-        for (int d : digits) { sum += d; prod *= d; }
+        for (int d : digits) {
+            sum += d;
+            prod *= d;
+        }
         return sum == prod;
     }
 
@@ -30,6 +36,7 @@ public class numcheck4 {
     }
 
     public static void main(String[] args) {
+        // Run number property checks
         System.out.println("9 is Neon: " + isNeon(9));
         System.out.println("1123 is Spy: " + isSpy(1123));
         System.out.println("25 is Automorphic: " + isAutomorphic(25));

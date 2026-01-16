@@ -1,9 +1,11 @@
 package Method.lvl2;
+
 import java.util.Scanner;
 
 public class vote {
     public boolean canStudentVote(int age) {
-        if (age < 0) return false;
+        if (age < 0)
+            return false;
         return age >= 18;
     }
 
@@ -12,8 +14,9 @@ public class vote {
         vote svc = new vote();
         int[] ages = new int[10];
 
+        // Check voting eligibility for 10 students
         for (int i = 0; i < 10; i++) {
-            System.out.print("Enter age for student " + (i+1) + ": ");
+            System.out.print("Enter age for student " + (i + 1) + ": ");
             ages[i] = sc.nextInt();
             System.out.println("Can vote: " + svc.canStudentVote(ages[i]));
         }

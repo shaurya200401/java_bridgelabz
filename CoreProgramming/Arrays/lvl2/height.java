@@ -1,10 +1,12 @@
 package Arrays.lvl2;
+
 import java.util.Scanner;
 
 public class height {
     public static void main(String[] args) {
+        // Initialize arrays
         Scanner sc = new Scanner(System.in);
-        String[] names = {"Amar", "Akbar", "Anthony"};
+        String[] names = { "Amar", "Akbar", "Anthony" };
         int[] ages = new int[3];
         int[] heights = new int[3];
 

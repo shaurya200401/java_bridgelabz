@@ -17,7 +17,7 @@ public class calendar {
     }
 
     public static int getDaysInMonth(int month, int year) {
-        int[] days = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+        int[] days = { 0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
         if (month == 2 && isLeapYear(year)) {
             return 29;
         }
@@ -39,6 +39,7 @@ public class calendar {
         int month = sc.nextInt();
         int year = sc.nextInt();
 
+        // Get calendar details
         String monthName = getMonthName(month);
         int numDays = getDaysInMonth(month, year);
         int startDay = getFirstDayOfMonth(month, year);

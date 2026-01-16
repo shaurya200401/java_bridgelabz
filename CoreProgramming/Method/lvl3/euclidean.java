@@ -9,8 +9,10 @@ public class euclidean {
         double x1 = sc.nextDouble(), y1 = sc.nextDouble();
         double x2 = sc.nextDouble(), y2 = sc.nextDouble();
 
+        // Calculate Euclidean distance
         double distance = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
 
+        // Calculate line equation y = mx + b
         double m = (y2 - y1) / (x2 - x1);
         double b = y1 - m * x1;
 

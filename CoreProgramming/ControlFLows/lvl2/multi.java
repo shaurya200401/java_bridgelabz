@@ -1,12 +1,15 @@
 package ControlFLows.lvl2;
+
 import java.util.Scanner;
 
 public class multi {
     public static void main(String[] args) {
+        // Read input
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int number = sc.nextInt();
 
+        // Print multiplication table
         for (int i = 6; i <= 9; i++) {
             System.out.println(number + " * " + i + " = " + (number * i));
         }

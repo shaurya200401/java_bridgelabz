@@ -4,11 +4,13 @@ import java.util.Scanner;
 
 public class bmi2 {
     public static void main(String[] args) {
+        // Read number of persons
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter number of persons: ");
         int n = sc.nextInt();
 
+        // Initialize arrays
         double[][] personData = new double[n][3]; // [height, weight, BMI]
         String[] weightStatus = new String[n];
 

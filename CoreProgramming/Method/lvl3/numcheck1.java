@@ -17,7 +17,9 @@ public class numcheck1 {
     }
 
     public static boolean isDuckNumber(int[] digits) {
-        for (int d : digits) if (d != 0) return true; // Has a non-zero digit
+        for (int d : digits)
+            if (d != 0)
+                return true; // Has a non-zero digit
         return false;
     }
 
@@ -25,15 +27,19 @@ public class numcheck1 {
         int[] digits = getDigitsArray(n);
         int len = digits.length;
         int sum = 0;
-        for (int d : digits) sum += Math.pow(d, len);
+        for (int d : digits)
+            sum += Math.pow(d, len);
         return sum == n;
     }
 
     public static void findLargestAndSecondLargest(int[] digits) {
         int largest = Integer.MIN_VALUE, secondLargest = Integer.MIN_VALUE;
         for (int d : digits) {
-            if (d > largest) { secondLargest = largest; largest = d; }
-            else if (d > secondLargest && d != largest) secondLargest = d;
+            if (d > largest) {
+                secondLargest = largest;
+                largest = d;
+            } else if (d > secondLargest && d != largest)
+                secondLargest = d;
         }
         System.out.println("Largest: " + largest + ", Second Largest: " + secondLargest);
     }
@@ -41,14 +47,18 @@ public class numcheck1 {
     public static void findSmallestAndSecondSmallest(int[] digits) {
         int smallest = Integer.MAX_VALUE, secondSmallest = Integer.MAX_VALUE;
         for (int d : digits) {
-            if (d < smallest) { secondSmallest = smallest; smallest = d; }
-            else if (d < secondSmallest && d != smallest) secondSmallest = d;
+            if (d < smallest) {
+                secondSmallest = smallest;
+                smallest = d;
+            } else if (d < secondSmallest && d != smallest)
+                secondSmallest = d;
         }
         System.out.println("Smallest: " + smallest + ", Second Smallest: " + secondSmallest);
     }
 
     public static void main(String[] args) {
         int num = 153;
+        // Verify number properties
         int[] digits = getDigitsArray(num);
         System.out.println("Number: " + num);
         System.out.println("Is Armstrong: " + isArmstrong(num));

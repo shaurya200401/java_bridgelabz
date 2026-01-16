@@ -4,10 +4,12 @@ import java.util.Scanner;
 
 public class windchill {
     public static void main(String[] args) {
+        // Read input
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter temperature (F) and wind speed (mph): ");
         double t = sc.nextDouble(), v = sc.nextDouble();
 
+        // Calculate wind chill
         windchill obj = new windchill();
         System.out.printf("Wind Chill Temperature: %.2f\n", obj.calculateWindChill(t, v));
     }
