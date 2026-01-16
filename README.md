@@ -3,6 +3,36 @@ Simple JAVA Applications for learning Git and Github
 
 # Logsheet
 
+**Date:** 8th Dec 2025
+**What I've done:** basic java practice 
+**What I will do:** upcoming assigned projects 
+**Issues faced:** getting used to environment
+
+**Date:** 10th Dec 2025
+**What I've done:** .Net installation
+**What I will do:** upcoming assigned projects 
+**Issues faced:** git issues
+
+**Date:** 11th Dec 2025
+**What I've done:** basic programming
+**What I will do:** upcoming assigned projects 
+**Issues faced:** .net syntax
+
+**Date:** 12th Dec 2025
+**What I've done:** standard input output
+**What I will do:** upcoming assigned projects 
+**Issues faced:** .net syntax
+
+**Date:** 13th Dec 2025
+**What I've done:** control flows
+**What I will do:** upcoming assigned projects 
+**Issues faced:** None
+
+**Date:** 15th Dec 2025
+**What I've done:** arrays
+**What I will do:** upcoming assigned projects 
+**Issues faced:** None
+
 **Date:** 8th Jan 2026  
 **What I've done:** Java Basics, Programming elements  
 **What I will do:** control flows  
