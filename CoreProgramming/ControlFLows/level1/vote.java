@@ -1,4 +1,4 @@
-package ControlFLows.lvl1;
+﻿package ControlFLows.level1;
 
 import java.util.Scanner;
 
@@ -17,3 +17,4 @@ public class vote {
         }
     }
 }
+

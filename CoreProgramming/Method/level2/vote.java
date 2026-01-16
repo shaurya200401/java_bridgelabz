@@ -1,4 +1,4 @@
-package Method.lvl2;
+﻿package Method.level2;
 
 import java.util.Scanner;
 
@@ -22,3 +22,4 @@ public class vote {
         }
     }
 }
+

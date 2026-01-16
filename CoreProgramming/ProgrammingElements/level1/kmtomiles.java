@@ -1,4 +1,4 @@
-package ProgrammingElements.lvl1;
+﻿package ProgrammingElements.level1;
 
 public class kmtomiles {
     public static void main(String[] args) {
@@ -10,3 +10,4 @@ public class kmtomiles {
         System.out.println("The distance " + km + " km in miles is " + miles);
     }
 }
+

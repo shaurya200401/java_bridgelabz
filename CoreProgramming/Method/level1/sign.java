@@ -1,4 +1,4 @@
-package Method.lvl1;
+﻿package Method.level1;
 
 import java.util.Scanner;
 
@@ -20,3 +20,4 @@ public class sign {
         return 0;
     }
 }
+

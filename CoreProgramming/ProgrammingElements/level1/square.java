@@ -1,4 +1,4 @@
-package ProgrammingElements.lvl1;
+﻿package ProgrammingElements.level1;
 
 import java.util.Scanner;
 
@@ -15,3 +15,4 @@ public class square {
     }
 
 }
+

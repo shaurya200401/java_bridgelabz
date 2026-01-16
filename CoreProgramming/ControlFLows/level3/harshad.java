@@ -1,4 +1,4 @@
-package ControlFLows.lvl3;
+﻿package ControlFLows.level3;
 
 import java.util.Scanner;
 
@@ -22,3 +22,4 @@ public class harshad {
             System.out.println("Not a Harshad Number");
     }
 }
+

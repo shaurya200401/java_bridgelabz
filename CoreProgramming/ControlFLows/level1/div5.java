@@ -1,4 +1,4 @@
-package ControlFLows.lvl1;
+﻿package ControlFLows.level1;
 
 import java.util.Scanner;
 
@@ -15,3 +15,4 @@ public class div5 {
             System.out.println("Is the " + num + " divisible by 5? " + "No");
     }
 }
+

@@ -1,4 +1,4 @@
-package String.lvl2;
+﻿package String.level2;
 
 import java.util.Scanner;
 
@@ -68,3 +68,4 @@ public class CharTypeDisplay {
         scanner.close();
     }
 }
+

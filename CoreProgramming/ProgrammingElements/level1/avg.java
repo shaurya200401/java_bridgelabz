@@ -1,4 +1,4 @@
-package ProgrammingElements.lvl1;
+﻿package ProgrammingElements.level1;
 
 public class avg {
     public static void main(String[] args) {
@@ -7,6 +7,6 @@ public class avg {
 
         // Calculate average
         double average = (maths + physics + chemistry) / 3.0;
-        System.out.println("Sam’s average mark in PCM is " + average);
+        System.out.println("Samâ€™s average mark in PCM is " + average);
     }
 }

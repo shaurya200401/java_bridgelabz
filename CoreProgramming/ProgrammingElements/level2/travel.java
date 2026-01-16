@@ -1,4 +1,4 @@
-package ProgrammingElements.lvl2;
+﻿package ProgrammingElements.level2;
 
 import java.util.Scanner;
 
@@ -33,10 +33,11 @@ public class travel {
         double speed = totalDistance / time;
 
         System.out.println("Traveler: " + name);
-        System.out.println("Route: " + fromCity + " → " + viaCity + " → " + toCity);
+        System.out.println("Route: " + fromCity + " â†’ " + viaCity + " â†’ " + toCity);
         System.out.println("Total Distance: " + totalDistance + " miles");
         System.out.println("Time Taken: " + time + " hours");
         System.out.println("Average Speed: " + speed + " miles/hour");
     }
 
 }
+

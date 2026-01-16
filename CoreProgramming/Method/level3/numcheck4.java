@@ -1,4 +1,4 @@
-package Method.lvl3;
+﻿package Method.level3;
 
 public class numcheck4 {
     public static boolean isPrime(int n) {

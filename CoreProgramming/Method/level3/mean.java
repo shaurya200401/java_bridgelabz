@@ -1,4 +1,4 @@
-package Method.lvl3;
+﻿package Method.level3;
 
 import java.util.Random;
 

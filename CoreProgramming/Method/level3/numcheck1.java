@@ -1,4 +1,4 @@
-package Method.lvl3;
+﻿package Method.level3;
 
 public class numcheck1 {
     public static int countDigits(int n) {

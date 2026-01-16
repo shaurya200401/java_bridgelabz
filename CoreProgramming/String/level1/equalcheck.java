@@ -1,4 +1,4 @@
-package String.lvl1;
+﻿package String.level1;
 import java.util.Scanner;
 
 public class equalcheck {

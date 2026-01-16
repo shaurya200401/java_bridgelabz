@@ -1,4 +1,4 @@
-package Method.lvl2;
+﻿package Method.level2;
 
 public class rand {
     public int[] generate4DigitRandomArray(int size) {

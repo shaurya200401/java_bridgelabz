@@ -1,4 +1,4 @@
-package String.lvl1;
+﻿package String.level1;
 public class nullptr {
     public static void generateException() {
         String text = null;

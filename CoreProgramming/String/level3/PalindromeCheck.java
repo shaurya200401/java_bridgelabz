@@ -1,4 +1,4 @@
-package CoreProgramming.String.lvl3;
+﻿package String.level3;
 
 import java.util.Scanner;
 
@@ -73,3 +73,4 @@ public class PalindromeCheck {
         scanner.close();
     }
 }
+
