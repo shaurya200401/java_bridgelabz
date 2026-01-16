@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Program: Multiplication Table (1-10)
  * Purpose: Generates and displays the multiplication table for a given number.
  */
-public class multi {
+public class multiplicationTable {
     public static void main(String[] args) {
         // Step 1: Get user input
         Scanner sc = new Scanner(System.in);

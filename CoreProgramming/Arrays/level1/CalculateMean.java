@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Program: Mean Height Calculator
  * Purpose: Calculates the mean height of 11 football players.
  */
-public class mean {
+public class CalculateMean {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
