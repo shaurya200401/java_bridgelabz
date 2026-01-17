@@ -1,0 +1,34 @@
+﻿package ControlFLows.level3;
+
+import java.util.Scanner;
+
+/*
+ * Program: BMI Calculator
+ * Purpose: Calculates Body Mass Index (BMI) and provides weight status category based on weight (kg) and height (cm).
+ */
+public class BMI {
+    public static void main(String[] args) {
+        // Read input
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter weight (kg) and height (cm): ");
+        double weight = sc.nextDouble();
+        double heightCm = sc.nextDouble();
+
+        // Calculate BMI
+        double heightM = heightCm / 100.0;
+        double bmi = weight / (heightM * heightM);
+        String status;
+
+        if (bmi <= 18.4)
+            status = "Underweight";
+        else if (bmi <= 24.9)
+            status = "Normal";
+        else if (bmi <= 39.9)
+            status = "Overweight";
+        else
+            status = "Obese";
+
+        System.out.printf("BMI: %.1f | Status: %s\n", bmi, status);
+        sc.close();
+    }
+}
