@@ -1,0 +1,27 @@
+﻿package ControlFLows.level1;
+
+import java.util.Scanner;
+
+/*
+ * Program: Employee Bonus Calculator
+ * Purpose: Determines if an employee is eligible for a bonus based on years of service.
+ */
+public class SalaryBonus {
+    public static void main(String[] args) {
+        // Read input
+        Scanner sc = new Scanner(System.in);
+        System.out.print("\nEnter salary: ");
+        double salary = sc.nextDouble();
+        System.out.print("Enter years of service: ");
+        int years = sc.nextInt();
+
+        // Check bonus eligibility
+        if (years > 5) {
+            double bonus = salary * 0.05;
+            System.out.println("Bonus = " + bonus);
+        } else {
+            System.out.println("No bonus");
+        }
+        sc.close();
+    }
+}
