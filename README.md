@@ -33,6 +33,31 @@ Simple JAVA Applications for learning Git and Github
 **What I will do:** upcoming assigned projects 
 **Issues faced:** None
 
+**Date:** 16th Dec 2025
+**What I've done:** strings
+**What I will do:** upcoming assigned projects 
+**Issues faced:** None
+
+**Date:** 17th Dec 2025
+**What I've done:** methods
+**What I will do:** upcoming assigned projects 
+**Issues faced:** None
+
+**Date:** 18th Dec 2025
+**What I've done:** extras
+**What I will do:** upcoming assigned projects 
+**Issues faced:** None
+
+**Date:** 18th Dec 2025
+**What I've done:** classes, objects
+**What I will do:** upcoming assigned projects 
+**Issues faced:** None
+
+**Date:** 18th Dec 2025
+**What I've done:** constructors
+**What I will do:** upcoming assigned projects 
+**Issues faced:** None
+
 **Date:** 8th Jan 2026  
 **What I've done:** Java Basics, Programming elements  
 **What I will do:** control flows  
@@ -55,5 +80,10 @@ Simple JAVA Applications for learning Git and Github
 
 **Date:** 14th Jan 2026  
 **What I've done:** methods, strings  
+*What I will do:* further provided problems  
+*Issues faced:* None  
+
+**Date:** 16th Jan 2026  
+**What I've done:** object oriented programming fundamentals  
 *What I will do:* further provided problems  
 *Issues faced:* None  
