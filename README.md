@@ -88,6 +88,11 @@ Simple JAVA Applications for learning Git and Github
 *What I will do:* further provided problems  
 *Issues faced:* None  
 
+**Date:** 19th Jan 2026  
+**What I've done:** Started Data Structures  
+*What I will do:* further provided problems  
+*Issues faced:* None  
+
 **Date:** 17th Jan 2026  
 **What I've done:** constructors, inheritance, encapsulation    
 *What I will do:* further provided problems  
