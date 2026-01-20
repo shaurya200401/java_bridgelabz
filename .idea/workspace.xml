@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b98846cf-2e58-47b4-86da-3ad450a65fd2" name="Changes" comment="">
+    <list default="true" id="253a455c-a700-4f38-9a0c-f0d27af3ea97" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Java_Bridgelabz.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Java_Bridgelabz.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Bridgelabz.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +32,7 @@
   "customColor": "",
   "associatedIndex": 0
 }]]></component>
-  <component name="ProjectId" id="38Sk3Lzj8GFXOEJ4m2k5INQtr1e" />
+  <component name="ProjectId" id="38VWMF65CmahapbqNFYSssf4639" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -42,11 +42,9 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "feature/DataStructures",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "kotlin-language-version-configured": "true"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -58,11 +56,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b98846cf-2e58-47b4-86da-3ad450a65fd2" name="Changes" comment="" />
-      <created>1768800163402</created>
+      <changelist id="253a455c-a700-4f38-9a0c-f0d27af3ea97" name="Changes" comment="" />
+      <created>1768885171802</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1768800163402</updated>
+      <updated>1768885171802</updated>
     </task>
     <servers />
   </component>
