@@ -1,4 +1,4 @@
-package DataStructures.LinkedList;
+package dataStructures.linkedList;
 
 /**
  * Inventory Management System using Singly Linked List.

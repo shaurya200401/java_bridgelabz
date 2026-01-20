@@ -1,6 +1,4 @@
-package DataStructures.LinkedList;
-
-import java.util.Scanner;
+package dataStructures.linkedList;
 
 /**
  * Manages student records using a Singly Linked List.

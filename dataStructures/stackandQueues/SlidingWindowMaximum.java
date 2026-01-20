@@ -1,4 +1,4 @@
-package DataStructures.StackandQueues;
+package dataStructures.stackandQueues;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

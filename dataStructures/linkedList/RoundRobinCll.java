@@ -1,4 +1,4 @@
-package DataStructures.LinkedList;
+package dataStructures.linkedList;
 
 /**
  * Round Robin CPU Scheduling using Circular Linked List.

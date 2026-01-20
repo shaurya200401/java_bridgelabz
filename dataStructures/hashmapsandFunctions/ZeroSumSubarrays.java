@@ -1,4 +1,4 @@
-package DataStructures.HashmapsandFunctions;
+package dataStructures.hashmapsandFunctions;
 
 import java.util.ArrayList;
 import java.util.HashMap;

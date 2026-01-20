@@ -1,4 +1,4 @@
-package DataStructures.HashmapsandFunctions;
+package dataStructures.hashmapsandFunctions;
 
 /**
  * Class to implement a basic hash map.

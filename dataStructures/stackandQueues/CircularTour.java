@@ -1,4 +1,4 @@
-package DataStructures.StackandQueues;
+package dataStructures.stackandQueues;
 
 /**
  * CircularTour class finds the starting petrol pump to complete a circular

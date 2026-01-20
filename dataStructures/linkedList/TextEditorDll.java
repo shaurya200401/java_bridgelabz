@@ -1,4 +1,4 @@
-package DataStructures.LinkedList;
+package dataStructures.linkedList;
 
 /**
  * Text Editor Undo/Redo functionality using Doubly Linked List.

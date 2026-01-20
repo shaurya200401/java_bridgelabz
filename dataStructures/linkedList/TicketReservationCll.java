@@ -1,4 +1,4 @@
-package DataStructures.LinkedList;
+package dataStructures.linkedList;
 
 /**
  * Online Ticket Reservation System using Circular Linked List.
