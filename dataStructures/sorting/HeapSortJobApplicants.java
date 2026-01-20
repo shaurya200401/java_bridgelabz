@@ -1,4 +1,4 @@
-package dataStructures.Sorting;
+package dataStructures.sorting;
 
 /**
  * Class to sort job applicants by salary using Heap Sort.

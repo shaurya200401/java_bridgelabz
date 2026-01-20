@@ -1,4 +1,4 @@
-package dataStructures.Sorting;
+package dataStructures.sorting;
 
 /**
  * Class to sort book prices using Merge Sort.
