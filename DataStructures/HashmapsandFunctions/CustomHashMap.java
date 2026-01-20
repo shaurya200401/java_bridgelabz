@@ -8,10 +8,10 @@ package DataStructures.HashmapsandFunctions;
 public class CustomHashMap<K, V> {
 
     // Node class for the linked list
-    private class Node {
+    private static class Node<K, V> {
         K key;
         V value;
-        Node next;
+        Node<K, V> next;
 
         Node(K key, V value) {
             this.key = key;
@@ -19,14 +19,15 @@ public class CustomHashMap<K, V> {
         }
     }
 
-    private Node[] buckets;
+    private Node<K, V>[] buckets;
     private int capacity;
     private int size;
 
     // Constructor to initialize the hash map
+    @SuppressWarnings("unchecked")
     public CustomHashMap(int capacity) {
         this.capacity = capacity;
-        this.buckets = new Node[capacity];
+        this.buckets = (Node<K, V>[]) new Node[capacity];
         this.size = 0;
     }
 
@@ -39,7 +40,7 @@ public class CustomHashMap<K, V> {
     // Method to put a key-value pair into the map
     public void put(K key, V value) {
         int bucketIndex = getBucketIndex(key);
-        Node head = buckets[bucketIndex];
+        Node<K, V> head = buckets[bucketIndex];
 
         // Check if key is already present
         while (head != null) {
@@ -52,7 +53,7 @@ public class CustomHashMap<K, V> {
 
         // Insert new node at the beginning of the list
         head = buckets[bucketIndex];
-        Node newNode = new Node(key, value);
+        Node<K, V> newNode = new Node<>(key, value);
         newNode.next = head;
         buckets[bucketIndex] = newNode;
         size++;
@@ -61,7 +62,7 @@ public class CustomHashMap<K, V> {
     // Method to get a value by key
     public V get(K key) {
         int bucketIndex = getBucketIndex(key);
-        Node head = buckets[bucketIndex];
+        Node<K, V> head = buckets[bucketIndex];
 
         // Search for the key in the linked list
         while (head != null) {
@@ -77,8 +78,8 @@ public class CustomHashMap<K, V> {
     // Method to remove a key-value pair
     public V remove(K key) {
         int bucketIndex = getBucketIndex(key);
-        Node head = buckets[bucketIndex];
-        Node prev = null;
+        Node<K, V> head = buckets[bucketIndex];
+        Node<K, V> prev = null;
 
         while (head != null) {
             if (head.key.equals(key)) {
