@@ -1,7 +1,7 @@
 # Java_Bridgelabz
 Simple JAVA Applications for learning Git and Github
 
-# Logsheet
+# Daily progress log BridgeLabz - Training
 
 **Date:** 8th Dec 2025  
 **What I've done:** basic java practice   
@@ -86,14 +86,24 @@ Simple JAVA Applications for learning Git and Github
 **Date:** 16th Jan 2026  
 **What I've done:** object oriented programming fundamentals  
 *What I will do:* further provided problems  
+*Issues faced:* None   
+
+**Date:** 17th Jan 2026  
+**What I've done:** constructors, inheritance, encapsulation    
+*What I will do:* further provided problems  
 *Issues faced:* None  
 
 **Date:** 19th Jan 2026  
 **What I've done:** Started Data Structures  
 *What I will do:* further provided problems  
+*Issues faced:* None 
+
+**Date:** 20th Jan 2026  
+**What I've done:** completed sorting and search    
+*What I will do:* further provided problems  
 *Issues faced:* None  
 
-**Date:** 17th Jan 2026  
-**What I've done:** constructors, inheritance, encapsulation    
+**Date:** 21st Jan 2026  
+**What I've done:** algorithm and complexity analysis    
 *What I will do:* further provided problems  
 *Issues faced:* None  
