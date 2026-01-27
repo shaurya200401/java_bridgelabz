@@ -1,4 +1,4 @@
-package DataStructures.Search;
+package dataStructures.search;
 
 /**
  * Class to search for a specific word in a list of sentences using Linear

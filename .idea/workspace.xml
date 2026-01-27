@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="253a455c-a700-4f38-9a0c-f0d27af3ea97" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructures/search/ReadFileLines.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructures/search/ReadFileLines.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructures/search/SearchWordInSentences.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructures/search/SearchWordInSentences.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructures/search/UserInputToFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructures/search/UserInputToFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +38,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.DataStructureSearchPerformanceComparison.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,

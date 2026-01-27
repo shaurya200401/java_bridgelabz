@@ -1,4 +1,4 @@
-package DataStructures.Search;
+package dataStructures.search;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
