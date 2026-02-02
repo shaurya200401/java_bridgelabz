@@ -112,3 +112,28 @@ Simple JAVA Applications for learning Git and Github
 **What I've done:** reviewed previous work and revision    
 *What I will do:* further provided problems  
 *Issues faced:* None  
+
+**Date:** 27th Jan 2026  
+**What I've done:** Completed Java Generics    
+*What I will do:* further provided problems  
+*Issues faced:* None  
+
+**Date:** 28th Jan 2026  
+**What I've done:** Completed Java Collections    
+*What I will do:* further provided problems  
+*Issues faced:* None  
+
+**Date:** 29th Jan 2026  
+**What I've done:** Reviewed and revised previous Concepts    
+*What I will do:* further provided problems  
+*Issues faced:* None  
+
+**Date:** 30th Jan 2026  
+**What I've done:** Completed Factory hazard Analyser    
+*What I will do:* further provided problems  
+*Issues faced:* None  
+
+**Date:** 31st Jan 2026  
+**What I've done:** Completed Java IO Streams    
+*What I will do:* further provided problems  
+*Issues faced:* None  
