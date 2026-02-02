@@ -37,6 +37,8 @@
   &quot;keyToString&quot;: {
     &quot;Application.BankAccount.executor&quot;: &quot;Run&quot;,
     &quot;Application.Book.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListReversal.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WordFrequencyCounter.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,

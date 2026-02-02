@@ -37,6 +37,10 @@
   "keyToString": {
     "Application.BankAccount.executor": "Run",
     "Application.Book.executor": "Run",
+    "Application.BufferedFileCopy.executor": "Run",
+    "Application.CaseConverter.executor": "Run",
+    "Application.EmployeeSerialization.executor": "Run",
+    "Application.FileReadWrite.executor": "Run",
     "Application.ListReversal.executor": "Run",
     "Application.WordFrequencyCounter.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",

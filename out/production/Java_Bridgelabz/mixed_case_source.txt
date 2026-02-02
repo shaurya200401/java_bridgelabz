@@ -1,0 +1,2 @@
+HELLO World! This Is A MixEd CaSe FiLe.
+JAVA IO STREAMS are POWERFUL.

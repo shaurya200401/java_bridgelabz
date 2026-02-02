@@ -1,0 +1,2 @@
+hello world! this is a mixed case file.
+java io streams are powerful.
