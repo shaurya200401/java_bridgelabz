@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="85628cb7-e7b7-4466-b8e4-40e9a6bc2af5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Bridgelabz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Bridgelabz.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Bridgelabz/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_Bridgelabz/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,23 +35,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BankAccount.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Book.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListReversal.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WordFrequencyCounter.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/JavaCollectionsStreams&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/club/internship/capgemini/Java_Bridgelabz&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BankAccount.executor": "Run",
+    "Application.Book.executor": "Run",
+    "Application.BufferedFileCopy.executor": "Run",
+    "Application.CaseConverter.executor": "Run",
+    "Application.EmployeeSerialization.executor": "Run",
+    "Application.FileReadWrite.executor": "Run",
+    "Application.ListReversal.executor": "Run",
+    "Application.WordFrequencyCounter.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.regexAndJUnit.jUnit in Java_Bridgelabz.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "feature/JavaCollectionsStreams",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/club/internship/capgemini/Java_Bridgelabz",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="regexAndJUnit.jUnit in Java_Bridgelabz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_Bridgelabz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="regexAndJUnit.jUnit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="regexAndJUnit.jUnit" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.regexAndJUnit.jUnit in Java_Bridgelabz" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
