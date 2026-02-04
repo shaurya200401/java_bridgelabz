@@ -137,3 +137,18 @@ Simple JAVA Applications for learning Git and Github
 **What I've done:** Completed Java IO Streams    
 *What I will do:* further provided problems  
 *Issues faced:* None  
+
+**Date:** 2nd Feb 2026  
+**What I've done:** Completed Ocean Fleet App    
+*What I will do:* further provided problems  
+*Issues faced:* None  
+
+**Date:** 3rd Feb 2026  
+**What I've done:** Completed exceptions programs    
+*What I will do:* further provided problems  
+*Issues faced:* None  
+
+**Date:** 2nd Feb 2026  
+**What I've done:** Completed JUnit and Regex programs    
+*What I will do:* further provided problems  
+*Issues faced:* None  
