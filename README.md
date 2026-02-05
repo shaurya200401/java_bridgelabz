@@ -152,3 +152,8 @@ Simple JAVA Applications for learning Git and Github
 **What I've done:** Completed JUnit and Regex programs    
 *What I will do:* further provided problems  
 *Issues faced:* None  
+
+**Date:** 5th Feb 2026  
+**What I've done:** Completed Java 8 features programs    
+*What I will do:* further provided problems  
+*Issues faced:* None  
