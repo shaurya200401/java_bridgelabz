@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="85628cb7-e7b7-4466-b8e4-40e9a6bc2af5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Bridgelabz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Bridgelabz.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_Bridgelabz/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_Bridgelabz/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_Bridgelabz/BufferedFileCopy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_Bridgelabz/Java_Bridgelabz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_Bridgelabz/Java_Bridgelabz.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_Bridgelabz/destination.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_Bridgelabz/lowercase_dest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_Bridgelabz/mixed_case_source.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_Bridgelabz/source.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +41,7 @@
     "Application.CaseConverter.executor": "Run",
     "Application.EmployeeSerialization.executor": "Run",
     "Application.FileReadWrite.executor": "Run",
+    "Application.InsuranceAnalysis.executor": "Run",
     "Application.ListReversal.executor": "Run",
     "Application.WordFrequencyCounter.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
@@ -69,7 +62,7 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.regexAndJUnit.regex in Java_Bridgelabz">
+  <component name="RunManager">
     <configuration name="TimeoutTestExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java_Bridgelabz" />
       <extension name="coverage">
