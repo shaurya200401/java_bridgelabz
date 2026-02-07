@@ -162,3 +162,8 @@ Simple JAVA Applications for learning Git and Github
 **What I've done:** Revision   
 *What I will do:* further provided problems  
 *Issues faced:* None  
+
+**Date:** 7th Feb 2026  
+**What I've done:** Soft Skills Workshop   
+*What I will do:* further provided problems  
+*Issues faced:* None  
