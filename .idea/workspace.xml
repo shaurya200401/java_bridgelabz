@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85628cb7-e7b7-4466-b8e4-40e9a6bc2af5" name="Changes" comment="" />
+    <list default="true" id="85628cb7-e7b7-4466-b8e4-40e9a6bc2af5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Bridgelabz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Bridgelabz.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,10 +40,24 @@
   "keyToString": {
     "Application.BankAccount.executor": "Run",
     "Application.Book.executor": "Run",
+    "Application.CSVToBean.executor": "Run",
+    "Application.CountCSVRows.executor": "Run",
+    "Application.DatabaseToCSV.executor": "Run",
+    "Application.DetectDuplicatesCSV.executor": "Run",
+    "Application.EncryptDecryptCSV.executor": "Run",
+    "Application.FilterCSV.executor": "Run",
+    "Application.MergeCSV.executor": "Run",
+    "Application.ReadCSV.executor": "Run",
+    "Application.ReadLargeCSV.executor": "Run",
+    "Application.SearchCSV.executor": "Run",
+    "Application.SortCSV.executor": "Run",
+    "Application.UpdateCSV.executor": "Run",
+    "Application.ValidateCSV.executor": "Run",
+    "Application.WriteCSV.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "dev",
+    "git-widget-placeholder": "feature/IOProgramming",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/club/internship/capgemini/Java_Bridgelabz",
     "project.structure.last.edited": "Modules",
