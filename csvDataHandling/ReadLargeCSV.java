@@ -12,7 +12,7 @@ import java.io.IOException;
 public class ReadLargeCSV {
     public static void main(String[] args) {
         // Using a regular file for demonstration, logic applies to large files
-        String filePath = "students.csv";
+        String filePath = "csvDataHandling/csv/students.csv";
         int batchSize = 2; // Using smaller batch size for demonstration with small file. Change to 100 for
                            // actual large file.
 

@@ -10,7 +10,7 @@ import java.io.IOException;
  */
 public class CountCSVRows {
     public static void main(String[] args) {
-        String filePath = "employees.csv"; // Using the file created in problem 2
+        String filePath = "csvDataHandling/csv/employees.csv"; // Using the file created in problem 2
         int count = 0;
 
         // Try-with-resources for automatic resource management

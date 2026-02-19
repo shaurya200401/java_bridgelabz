@@ -14,9 +14,9 @@ import java.util.Map;
  */
 public class MergeCSV {
     public static void main(String[] args) {
-        String file1 = "students1.csv";
-        String file2 = "students2.csv";
-        String outputFile = "merged_students.csv";
+        String file1 = "csvDataHandling/csv/students1.csv";
+        String file2 = "csvDataHandling/csv/students2.csv";
+        String outputFile = "csvDataHandling/csv/merged_students.csv";
 
         // Map to store data: ID -> Content from File 1
         Map<String, String> studentData = new HashMap<>();

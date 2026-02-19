@@ -33,7 +33,7 @@ public class CSVToBean {
     }
 
     public static void main(String[] args) {
-        String filePath = "students.csv";
+        String filePath = "csvDataHandling/csv/students.csv";
         List<Student> students = new ArrayList<>();
 
         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {

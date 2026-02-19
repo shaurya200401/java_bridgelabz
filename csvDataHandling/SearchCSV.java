@@ -12,7 +12,7 @@ import java.util.Scanner;
  */
 public class SearchCSV {
     public static void main(String[] args) {
-        String filePath = "employees.csv";
+        String filePath = "csvDataHandling/csv/employees.csv";
         String searchName = "Priya Singh"; // Hardcoded for this example as per practice style, or could use Scanner
 
         System.out.println("Searching for employee: " + searchName);

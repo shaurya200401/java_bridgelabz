@@ -11,7 +11,7 @@ import java.io.IOException;
  */
 public class WriteCSV {
     public static void main(String[] args) {
-        String filePath = "employees.csv"; // Output file path
+        String filePath = "csvDataHandling/csv/employees.csv"; // Output file path
 
         // Try-with-resources to ensure the writer is closed automatically
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath))) {

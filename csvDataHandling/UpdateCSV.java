@@ -11,8 +11,8 @@ import java.util.List;
  */
 public class UpdateCSV {
     public static void main(String[] args) {
-        String inputFile = "employees.csv";
-        String outputFile = "employees_updated.csv";
+        String inputFile = "csvDataHandling/csv/employees.csv";
+        String outputFile = "csvDataHandling/csv/employees_updated.csv";
         List<String> validLines = new ArrayList<>();
 
         // Read and process data

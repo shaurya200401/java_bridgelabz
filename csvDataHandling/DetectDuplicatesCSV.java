@@ -13,7 +13,7 @@ import java.util.Set;
  */
 public class DetectDuplicatesCSV {
     public static void main(String[] args) {
-        String filePath = "duplicates.csv";
+        String filePath = "csvDataHandling/csv/duplicates.csv";
         Set<String> existingIDs = new HashSet<>();
 
         System.out.println("Checking for duplicates in " + filePath + "...");

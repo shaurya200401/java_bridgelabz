@@ -14,8 +14,8 @@ import java.util.Base64;
 public class EncryptDecryptCSV {
 
     public static void main(String[] args) {
-        String originalFile = "employees.csv"; // Using existing
-        String encryptedFile = "employees_encrypted.csv";
+        String originalFile = "csvDataHandling/csv/employees.csv"; // Using existing
+        String encryptedFile = "csvDataHandling/csv/employees_encrypted.csv";
 
         // 1. Read Original, Encrypt Sensitive Data, Write to New File
         encryptAndWrite(originalFile, encryptedFile);

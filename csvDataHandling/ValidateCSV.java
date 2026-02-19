@@ -13,7 +13,7 @@ import java.util.regex.Pattern;
  */
 public class ValidateCSV {
     public static void main(String[] args) {
-        String filePath = "contacts.csv";
+        String filePath = "csvDataHandling/csv/contacts.csv";
         // Simple regex for email validation
         String emailRegex = "^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+$";
         Pattern emailPattern = Pattern.compile(emailRegex);

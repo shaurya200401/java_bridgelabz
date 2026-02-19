@@ -34,7 +34,7 @@ public class SortCSV {
     }
 
     public static void main(String[] args) {
-        String filePath = "employees.csv";
+        String filePath = "csvDataHandling/csv/employees.csv";
         List<Employee> employees = new ArrayList<>();
 
         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {

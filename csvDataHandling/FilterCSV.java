@@ -11,7 +11,7 @@ import java.io.IOException;
  */
 public class FilterCSV {
     public static void main(String[] args) {
-        String filePath = "students.csv";
+        String filePath = "csvDataHandling/csv/students.csv";
 
         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
             String line;
