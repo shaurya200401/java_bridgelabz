@@ -12,9 +12,9 @@ public class payrollDBService {
     private static payrollDBService instance;
 
     private final String jdbcURL =
-            "jdbc:mysql://localhost:3306/payroll_service?useSSL=false&serverTimezone=UTC";
+            "jdbc:mysql://localhost:3306/payroll_service?useSSL=false&allowPublicKeyRetrieval=true";
     private final String username = "root";
-    private final String password = "your_password";
+    private final String password = "password";
 
     private payrollDBService() {}
 
@@ -43,12 +43,13 @@ public class payrollDBService {
                         rs.getInt("id"),
                         rs.getString("name"),
                         rs.getDouble("salary"),
-                        rs.getDate("start").toLocalDate(),
+                        rs.getDate("start_date").toLocalDate(),
                         rs.getString("gender")
                 ));
             }
 
         } catch (SQLException e) {
+            e.printStackTrace();
             throw new payrollException("Error reading payroll data");
         }
 
@@ -99,7 +100,7 @@ public class payrollDBService {
 
         List<employeePayrollData> list = new ArrayList<>();
         String sql =
-                "SELECT * FROM employee_payroll WHERE start BETWEEN ? AND ?";
+                "SELECT * FROM employee_payroll WHERE start_date BETWEEN ? AND ?";
 
         try (Connection con = getConnection();
              PreparedStatement pstmt = con.prepareStatement(sql)) {
@@ -114,7 +115,7 @@ public class payrollDBService {
                         rs.getInt("id"),
                         rs.getString("name"),
                         rs.getDouble("salary"),
-                        rs.getDate("start").toLocalDate(),
+                        rs.getDate("start_date").toLocalDate(),
                         rs.getString("gender")
                 ));
             }
